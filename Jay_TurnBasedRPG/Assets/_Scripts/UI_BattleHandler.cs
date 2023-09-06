@@ -6,6 +6,7 @@ using DG.Tweening;
 using TMPro;
 using System;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 public class UI_BattleHandler : MonoBehaviour
 {
@@ -22,13 +23,18 @@ public class UI_BattleHandler : MonoBehaviour
 
     [SerializeField] private CanvasGroup groupButtons;
 
+    private BattleHandler battleHandler;
+
     private void Start()
     {
-        BattleHandler.Instance.GetMouseRaycast().OnMouseOverCharacter += MouseRaycast_OnMouseOverCharacter;
-        BattleHandler.Instance.GetMouseRaycast().OnMouseLeaveCharacter += MouseRaycast_MouseLeaveCharacter;
-        BattleHandler.Instance.OnCharacterAttacked += BattleHandler_OnCharacterAttacked;
-        BattleHandler.Instance.OnTargetSelected += BattleHandler_OnTargetSelected;
-        BattleHandler.Instance.OnTurnChanged += BattleHandler_OnTurnChanged;
+        battleHandler = BattleHandler.Instance;
+
+        //Subscribes to all the events on BattleHandler script
+        battleHandler.GetMouseRaycast().OnMouseOverCharacter += MouseRaycast_OnMouseOverCharacter;
+        battleHandler.GetMouseRaycast().OnMouseLeaveCharacter += MouseRaycast_MouseLeaveCharacter;
+        battleHandler.OnCharacterAttacked += BattleHandler_OnCharacterAttacked;
+        battleHandler.OnTargetSelected += BattleHandler_OnTargetSelected;
+        battleHandler.OnTurnChanged += BattleHandler_OnTurnChanged;
     }
 
     private void BattleHandler_OnTurnChanged(object sender, EventArgs e)
@@ -36,23 +42,27 @@ public class UI_BattleHandler : MonoBehaviour
         UpdateUltimateText();
     }
 
+    //Disable the UI buttons when a target is selected, to prevent clicks when the character is attacking
     private void BattleHandler_OnTargetSelected(object sender, EventArgs e)
     {
         groupButtons.interactable = !groupButtons.interactable;
     }
 
+    //Show the information of the target after attacked
     private void BattleHandler_OnCharacterAttacked(object sender, EventArgs e)
     {
-        FillInformations(BattleHandler.Instance.GetTarget());
+        FillInformations(battleHandler.GetTarget());
     }
 
+    //Unsubscribes to all the events when the script is destroyed
+    //Necessary to prevent problems
     private void OnDestroy()
     {
-        BattleHandler.Instance.GetMouseRaycast().OnMouseOverCharacter -= MouseRaycast_OnMouseOverCharacter;
-        BattleHandler.Instance.GetMouseRaycast().OnMouseLeaveCharacter -= MouseRaycast_MouseLeaveCharacter;
-        BattleHandler.Instance.OnCharacterAttacked -= BattleHandler_OnCharacterAttacked;
-        BattleHandler.Instance.OnTargetSelected -= BattleHandler_OnTargetSelected;
-        BattleHandler.Instance.OnTurnChanged -= BattleHandler_OnTurnChanged;
+        battleHandler.GetMouseRaycast().OnMouseOverCharacter -= MouseRaycast_OnMouseOverCharacter;
+        battleHandler.GetMouseRaycast().OnMouseLeaveCharacter -= MouseRaycast_MouseLeaveCharacter;
+        battleHandler.OnCharacterAttacked -= BattleHandler_OnCharacterAttacked;
+        battleHandler.OnTargetSelected -= BattleHandler_OnTargetSelected;
+        battleHandler.OnTurnChanged -= BattleHandler_OnTurnChanged;
     }
 
     private void MouseRaycast_OnMouseOverCharacter(object sender, MouseRaycast.OnMouseOverCharacterParameters e)
@@ -61,11 +71,13 @@ public class UI_BattleHandler : MonoBehaviour
         e.unit.GetSpriteRenderer().color = Color.green;
     }
 
-    private void MouseRaycast_MouseLeaveCharacter(object sender, EventArgs e)
+    private void MouseRaycast_MouseLeaveCharacter(object sender, MouseRaycast.OnMouseOverCharacterParameters e)
     {
         HideInformations();
+        e.unit.GetSpriteRenderer().color = Color.white;
     }
 
+    //Show the informations on screen
     public void FillInformations(BattleUnit unit)
     {
         informations.SetActive(true);
@@ -83,22 +95,36 @@ public class UI_BattleHandler : MonoBehaviour
 
     public void UpdateUltimateText()
     {
-        var ult = BattleHandler.Instance.GetCurrentTurn().GetUlt() * 100;
+        var ult = BattleHandler.Instance.GetCurrentTurn().GetUltimate() * 100;
         ultimateText.text = ult.ToString("F0") + "%";
     }
 
+
     public void AttackButton()
     {
-        BattleHandler.Instance.TargetSelection(true);
-        BattleHandler.Instance.SetAttackType(true);
+        //Go to the selecting target state and pass the attack type as normal (cause its the normal attack)
+        battleHandler.IsSelectingTarget(true);
+        battleHandler.SetAttackType(true);
     }
 
     public void UltimateButton()
     {
-        if (BattleHandler.Instance.GetCurrentTurn().GetUlt() == 1)
+        //Gets the current unit turn and then gets the ultimate value, if its 1, then its all charged
+        if (battleHandler.GetCurrentTurn().GetUltimate() == 1)
         {
-            BattleHandler.Instance.TargetSelection(true);
-            BattleHandler.Instance.SetAttackType(false);
+            //Go to the selecting target state and pass the attack type as not normal (ultimate)
+            battleHandler.IsSelectingTarget(true);
+            battleHandler.SetAttackType(false);
         }
+    }
+
+    public void Restart()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void Quit()
+    {
+        Application.Quit();
     }
 }

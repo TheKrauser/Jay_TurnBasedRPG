@@ -33,6 +33,8 @@ public class BattleUnit : MonoBehaviour
         box2D = GetComponent<BoxCollider2D>();
         sprite = visuals.GetComponent<SpriteRenderer>();
         anim = visuals.GetComponent<Animator>();
+
+        //Searches for the specific gameObject on the childrens of this object
         healthBar = transform.Find("HealthBar/Canvas/Health/Bar").GetComponent<Image>();
         circle = transform.Find("Circle").GetComponent<SpriteRenderer>();
     }
@@ -42,6 +44,8 @@ public class BattleUnit : MonoBehaviour
         Setup();
     }
 
+    //Fill this character variables getting from the ScriptableObject that has been
+    //passed to it on the Inspector
     private void Setup()
     {
         nome = character._name;
@@ -62,9 +66,10 @@ public class BattleUnit : MonoBehaviour
         healthBar.fillAmount = (float)currentHealth / maxHealth;
     }
 
+    //Functions to get the values from the variables without referencing them
     public int GetMaxHealth()
     {
-        return maxHealth; ;
+        return maxHealth;
     }
 
     public int GetCurrentHealth()
@@ -87,34 +92,40 @@ public class BattleUnit : MonoBehaviour
         return sprite;
     }
 
-    public void Attack(BattleUnit target)
-    {
-        anim.SetTrigger("Attack");
-        target.Damage(damage);
-        GainUlt();
-    }
-
-    public void Ultimate(BattleUnit target)
-    {
-        anim.SetTrigger("Attack");
-        target.Damage((int)(damage * 2.5f));
-        currentUlt = 0;
-    }
-
-    private void GainUlt()
-    {
-        currentUlt += (int)(damage * 2.5f);
-
-        if (currentUlt >= maxUlt)
-            currentUlt = maxUlt;
-
-    }
-
-    public float GetUlt()
+    public float GetUltimate()
     {
         return (float)currentUlt / maxUlt;
     }
 
+    //Attacks the target
+    public void Attack(BattleUnit target)
+    {
+        anim.SetTrigger("Attack");
+        target.Damage(damage);
+        //Gain ult when attack
+        GainUlt();
+    }
+
+    //Same function as the normal attack, but dealing x2.5 the normal damage
+    public void Ultimate(BattleUnit target)
+    {
+        anim.SetTrigger("Attack");
+        target.Damage((int)(damage * 2.5f));
+        //Sets the ultimate back to zero
+        currentUlt = 0;
+    }
+
+    //Gain ult after attack
+    private void GainUlt()
+    {
+        //Gains the ult equivalent to the base damage x2.5
+        currentUlt += (int)(damage * 2.5f);
+
+        if (currentUlt >= maxUlt)
+            currentUlt = maxUlt;
+    }
+
+    //Takes damage
     public void Damage(int damage)
     {
         currentHealth -= damage;
@@ -124,21 +135,24 @@ public class BattleUnit : MonoBehaviour
         {
             currentHealth = 0;
             isDead = true;
+            //Disable the character on the scene instead of destroying it
+            //It is better for now cause its not necessary to change the team arrays on BattleHandler script
             gameObject.SetActive(false);
             //Destroy(gameObject);
         }
     }
 
-    public bool GetDead()
+    public bool IsDead()
     {
         return isDead;
     }
 
-    public void SetCircle(Color color)
+    public void SetCircleColor(Color color)
     {
         circle.color = color;
     }
 
+    //Coroutine to change the sprite color when takes hit
     private IEnumerator BlinkDamage()
     {
         yield return new WaitForSeconds(0.35f);
@@ -148,10 +162,13 @@ public class BattleUnit : MonoBehaviour
         sprite.color = Color.white;
     }
 
+    //Function called when a click occurs on the gameObject 2D collider
     private void OnMouseDown()
     {
-        if (BattleHandler.Instance.targetSelection)
+        //Only allows to get the target if is time to select
+        if (BattleHandler.Instance.isSelectingTarget)
         {
+            //Pass this script as the target selected
             BattleHandler.Instance.SelectTarget(this);
         }
     }

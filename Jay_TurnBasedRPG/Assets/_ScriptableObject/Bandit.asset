@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Bandit
   _health: 60
-  _damage: 12
+  _damage: 70
   _ultMax: 0
   _flip: 0
   _visualPosition: {x: 0, y: -0.25, z: 0}
