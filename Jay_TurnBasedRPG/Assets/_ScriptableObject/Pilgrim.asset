@@ -14,6 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Pilgrim
   _health: 30
+  _damage: 8
+  _ultMax: 50
   _flip: 1
   _visualPosition: {x: 0, y: -0.25, z: 0}
   _visualSize: {x: 1.54, y: 1.54, z: 1.54}

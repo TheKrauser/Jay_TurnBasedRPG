@@ -13,10 +13,12 @@ MonoBehaviour:
   m_Name: Warrior
   m_EditorClassIdentifier: 
   _name: Warrior
-  _health: 30
+  _health: 70
+  _damage: 18
+  _ultMax: 20
   _flip: 0
   _visualPosition: {x: 0, y: -0.23, z: 0}
-  _visualSize: {x: 1.8, y: 1.8, z: 1.8}
+  _visualSize: {x: 1.68, y: 1.68, z: 1.68}
   _colliderSize: {x: 0.7, y: 1.29}
   _colliderOffset: {x: -0.015, y: 0.48}
   _animator: {fileID: 22100000, guid: 5eab48aab9f7a6346bfba6c3c12b870b, type: 2}

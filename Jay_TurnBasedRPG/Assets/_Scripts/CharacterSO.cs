@@ -9,6 +9,8 @@ public class CharacterSO : ScriptableObject
     [Header("Battle Stats")]
     public string _name;
     public int _health;
+    public int _damage;
+    public int _ultMax;
 
     [Header("Attributes")]
     public bool _flip;

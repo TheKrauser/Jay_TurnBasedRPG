@@ -13,7 +13,9 @@ MonoBehaviour:
   m_Name: Hero
   m_EditorClassIdentifier: 
   _name: Hero
-  _health: 30
+  _health: 80
+  _damage: 50
+  _ultMax: 80
   _flip: 0
   _visualPosition: {x: 0.1, y: -0.16, z: 0}
   _visualSize: {x: 1.29, y: 1.29, z: 1.29}
