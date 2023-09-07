@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Serialization;
 
+//This is a class to hold data, It is created on the asset menu (like when you create a script)
 [CreateAssetMenu(fileName = "Character", menuName = "ScriptableObjects/CharacterSO")]
 public class CharacterSO : ScriptableObject
 {

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Warrior
   _health: 70
-  _damage: 18
-  _ultMax: 20
+  _damage: 25
+  _ultMax: 100
   _flip: 0
   _visualPosition: {x: 0, y: -0.23, z: 0}
   _visualSize: {x: 1.68, y: 1.68, z: 1.68}

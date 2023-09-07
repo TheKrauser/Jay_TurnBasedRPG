@@ -190,7 +190,7 @@ public class BattleHandler : MonoBehaviour
 
             unit.SetCircleColor(Color.green);
 
-            //Chose a random number between 0 and 2, if the target index is dead, do this again till its not
+            playerTeamDeathCount = 0;
             foreach (BattleUnit playerUnit in playerTeam)
             {
                 if (playerUnit.IsDead())
@@ -199,9 +199,8 @@ public class BattleHandler : MonoBehaviour
 
             if (playerTeamDeathCount >= 3)
                 yield break;
-            else
-                playerTeamDeathCount = 0;
 
+            //Chose a random number between 0 and 2, if the target index is dead, do this again till its not
             do
             {
                 target = UnityEngine.Random.Range(0, playerTeam.Count);
@@ -226,6 +225,7 @@ public class BattleHandler : MonoBehaviour
 
         //When all the enemies attacked, simply toggle the isPlayerTurn to true
         isPlayerTurn = !isPlayerTurn;
+        playerTeamDeathCount = 0;
         TurnManager();
     }
 

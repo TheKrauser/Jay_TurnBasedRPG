@@ -147,6 +147,11 @@ public class BattleUnit : MonoBehaviour
         return isDead;
     }
 
+    public int GetDamage()
+    {
+        return damage;
+    }
+
     public void SetCircleColor(Color color)
     {
         circle.color = color;

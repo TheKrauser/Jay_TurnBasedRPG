@@ -15,10 +15,11 @@ public class UI_BattleHandler : MonoBehaviour
     [SerializeField] private TextMeshProUGUI infoName;
     [SerializeField] private Image infoHealthBar;
     [SerializeField] private TextMeshProUGUI infoHealthText;
+    [SerializeField] private TextMeshProUGUI infoUltimateText;
+    [SerializeField] private TextMeshProUGUI infoDamageText;
 
     [SerializeField] private Button attack;
     [SerializeField] private Button ultimate;
-    [SerializeField] private TextMeshProUGUI ultimateText;
     [SerializeField] private Button bag;
 
     [SerializeField] private CanvasGroup groupButtons;
@@ -84,6 +85,7 @@ public class UI_BattleHandler : MonoBehaviour
 
         infoPortrait.sprite = unit.GetUISprite();
         infoName.text = unit.GetName();
+        infoDamageText.text = $"Damage: {unit.GetDamage()}";
         infoHealthText.text = $"{unit.GetCurrentHealth()}/{unit.GetMaxHealth()}";
         infoHealthBar.fillAmount = (float)unit.GetCurrentHealth() / unit.GetMaxHealth();
     }
@@ -95,8 +97,8 @@ public class UI_BattleHandler : MonoBehaviour
 
     public void UpdateUltimateText()
     {
-        var ult = BattleHandler.Instance.GetCurrentTurn().GetUltimate() * 100;
-        ultimateText.text = ult.ToString("F0") + "%";
+        var ult = battleHandler.GetCurrentTurn().GetUltimate() * 100;
+        infoUltimateText.text = ult.ToString("F0") + "%";
     }
 
 
