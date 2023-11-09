@@ -12,6 +12,7 @@ public class CharacterSO : ScriptableObject
     public int _health;
     public int _damage;
     public int _ultMax;
+    public bool _hasUltimate;
 
     [Header("Attributes")]
     public bool _flip;

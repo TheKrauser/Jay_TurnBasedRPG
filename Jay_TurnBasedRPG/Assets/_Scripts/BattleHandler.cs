@@ -122,13 +122,27 @@ public class BattleHandler : MonoBehaviour
     //Pass the target that the player clicked to the current target unit
     public void SelectTarget(BattleUnit target)
     {
-        //If clicked target is not on the players team, do the following script
-        if (!playerTeam.Contains(target))
+        if (turn == 2)
         {
-            IsSelectingTarget(false);
-            targetUnit = target;
-            OnTargetSelected?.Invoke(this, EventArgs.Empty);
-            Attack();
+            if (!enemyTeam.Contains(target))
+            {
+                IsSelectingTarget(false);
+                targetUnit = target;
+                OnTargetSelected?.Invoke(this, EventArgs.Empty);
+                currentTurnUnit.Heal(target);
+                StartCoroutine(ReturnToInitialPosition(currentTurnUnit.transform.position, 1.2f));
+            }
+        }
+        else
+        {
+            //If clicked target is not on the players team, do the following script
+            if (!playerTeam.Contains(target))
+            {
+                IsSelectingTarget(false);
+                targetUnit = target;
+                OnTargetSelected?.Invoke(this, EventArgs.Empty);
+                Attack();
+            }
         }
     }
 

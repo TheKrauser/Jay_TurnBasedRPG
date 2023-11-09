@@ -15,6 +15,8 @@ public class BattleUnit : MonoBehaviour
     private int currentUlt;
     private int damage;
 
+    private bool hasUltimate;
+
     private bool isDead = false;
 
     private Transform visuals;
@@ -53,6 +55,8 @@ public class BattleUnit : MonoBehaviour
         currentHealth = maxHealth;
         damage = character._damage;
         maxUlt = character._ultMax;
+        currentUlt = 0;
+        hasUltimate = character._hasUltimate;
 
         visuals.localPosition = character._visualPosition;
         visuals.localScale = character._visualSize;
@@ -61,6 +65,11 @@ public class BattleUnit : MonoBehaviour
         box2D.offset = character._colliderOffset;
 
         anim.runtimeAnimatorController = character._animator;
+
+        if (character._name == "Hero")
+        {
+            currentHealth -= 30;
+        }
 
         uiSprite = character._battleSprite;
         healthBar.fillAmount = (float)currentHealth / maxHealth;
@@ -103,7 +112,16 @@ public class BattleUnit : MonoBehaviour
         anim.SetTrigger("Attack");
         target.Damage(damage);
         //Gain ult when attack
-        GainUlt();
+        if (hasUltimate)
+        {
+            GainUlt();
+        }
+    }
+
+    public void Heal(BattleUnit target)
+    {
+        anim.SetTrigger("Attack");
+        target.RestoreHealth(damage);
     }
 
     //Same function as the normal attack, but dealing x2.5 the normal damage
@@ -129,7 +147,7 @@ public class BattleUnit : MonoBehaviour
     public void Damage(int damage)
     {
         currentHealth -= damage;
-        StartCoroutine(BlinkDamage());
+        StartCoroutine(Blink(Color.red));
 
         if (currentHealth <= 0)
         {
@@ -139,6 +157,17 @@ public class BattleUnit : MonoBehaviour
             //It is better for now cause its not necessary to change the team arrays on BattleHandler script
             gameObject.SetActive(false);
             //Destroy(gameObject);
+        }
+    }
+
+    public void RestoreHealth(int value)
+    {
+        currentHealth += value;
+        StartCoroutine(Blink(Color.magenta));
+
+        if (currentHealth > maxHealth)
+        {
+            currentHealth = maxHealth;
         }
     }
 
@@ -158,10 +187,10 @@ public class BattleUnit : MonoBehaviour
     }
 
     //Coroutine to change the sprite color when takes hit
-    private IEnumerator BlinkDamage()
+    private IEnumerator Blink(Color color)
     {
         yield return new WaitForSeconds(0.35f);
-        sprite.color = Color.red;
+        sprite.color = color;
         healthBar.fillAmount = (float)currentHealth / maxHealth;
         yield return new WaitForSeconds(0.2f);
         sprite.color = Color.white;
