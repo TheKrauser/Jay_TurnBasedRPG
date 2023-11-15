@@ -1,0 +1,2763 @@
+fileFormatVersion: 2
+guid: 02b9adfa626529340b4bb7e6dcf67284
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Enemy Attack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10818
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d718eb1723f98d46928603bf87e6f4a
+      internalID: -337959091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_1
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 10818
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71517800fa48814baf9b8240399861e
+      internalID: 150600193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_2
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 10818
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c460129afd9e34345adaa13ed9d92b37
+      internalID: -202567801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_3
+      rect:
+        serializedVersion: 2
+        x: 3006
+        y: 10818
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e8bd5de23501242a86d30759bccd0b
+      internalID: -1206418429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_4
+      rect:
+        serializedVersion: 2
+        x: 4008
+        y: 10818
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b704210ec4a41419db869ce9055e7c
+      internalID: -1422336101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_5
+      rect:
+        serializedVersion: 2
+        x: 5010
+        y: 10818
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f15b7b089df174faa28408a532e8e8
+      internalID: 1957894548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_6
+      rect:
+        serializedVersion: 2
+        x: 6012
+        y: 10818
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f480546794e6b7d4c83f221183b69198
+      internalID: -542259634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_7
+      rect:
+        serializedVersion: 2
+        x: 7014
+        y: 10818
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b38136321cf7d4594fecbfce73c63b
+      internalID: 1113026915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_8
+      rect:
+        serializedVersion: 2
+        x: 8016
+        y: 10818
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 592bbc8bf4b30044fb0e4c1080445de9
+      internalID: 685151917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_9
+      rect:
+        serializedVersion: 2
+        x: 9018
+        y: 10818
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c306ae1be0c3e643b60fb40b040226e
+      internalID: -1531489770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_10
+      rect:
+        serializedVersion: 2
+        x: 10020
+        y: 10818
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d05e8c5bc154ae54f96f0877a276f432
+      internalID: 1066735356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_11
+      rect:
+        serializedVersion: 2
+        x: 11022
+        y: 10818
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87b2c8cb9441f8c4589acba4400fd191
+      internalID: -977508292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9616
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed3ef8c41c632647a0a7ff6a8657f4b
+      internalID: 1115663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_13
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 9616
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0292a6cbe2b114a4198bf7f7cc3e50be
+      internalID: 409675831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_14
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 9616
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc81ce8123c2fb4481ac783a6679fc4
+      internalID: 1164293956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_15
+      rect:
+        serializedVersion: 2
+        x: 3006
+        y: 9616
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1b21ffe3e113424cb63b97baa99f4ef
+      internalID: -518421316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_16
+      rect:
+        serializedVersion: 2
+        x: 4008
+        y: 9616
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939fbb9624940554d9b46c39cbeafe4d
+      internalID: 1423326482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_17
+      rect:
+        serializedVersion: 2
+        x: 5010
+        y: 9616
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e15b706e25f5cf4ca28f75a2b8e818e
+      internalID: 304876157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_18
+      rect:
+        serializedVersion: 2
+        x: 6012
+        y: 9616
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6318d7402a17ccf4b8b9d53903910270
+      internalID: -1146829813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_19
+      rect:
+        serializedVersion: 2
+        x: 7014
+        y: 9616
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8eda85085a5a7a4f9541c1fc31c4725
+      internalID: 634104265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_20
+      rect:
+        serializedVersion: 2
+        x: 8016
+        y: 9616
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d554eefe9f788c64fb4ef3afe01dc4a1
+      internalID: 401890045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_21
+      rect:
+        serializedVersion: 2
+        x: 9018
+        y: 9616
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3eeed922ec1354298610ddfbf3df06
+      internalID: 939980530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_22
+      rect:
+        serializedVersion: 2
+        x: 10020
+        y: 9616
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 577b1675e2ab05242b95ad51e0a1f343
+      internalID: -30895389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_23
+      rect:
+        serializedVersion: 2
+        x: 11022
+        y: 9616
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17188f70ca1467343b9613b5cb4b4922
+      internalID: -795996630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8414
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2337c31609ed12a42917f8d67f8b1a31
+      internalID: -1078501321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_25
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 8414
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e6d98990f23da345abc6f026517fb9b
+      internalID: -1631971038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_26
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 8414
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe2d6e1a0f44f24da1008431ddf6d48
+      internalID: -2009788384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_27
+      rect:
+        serializedVersion: 2
+        x: 3006
+        y: 8414
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1e7c895ad79da42ae5e05131e20c2b
+      internalID: 1373438962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_28
+      rect:
+        serializedVersion: 2
+        x: 4008
+        y: 8414
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a2c643bb07e1244a875da917442ccb4
+      internalID: -1041608651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_29
+      rect:
+        serializedVersion: 2
+        x: 5010
+        y: 8414
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c2aa255dcb236479262eb4b4427a3b
+      internalID: 140616775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_30
+      rect:
+        serializedVersion: 2
+        x: 6012
+        y: 8414
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5066823739a68a346bf0a6dd3fccda7e
+      internalID: 724788767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_31
+      rect:
+        serializedVersion: 2
+        x: 7014
+        y: 8414
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3bc7800b283a88408b9a1d816d21139
+      internalID: 72939380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_32
+      rect:
+        serializedVersion: 2
+        x: 8016
+        y: 8414
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c49e08f1025ff40aeee6d6c816c2ef
+      internalID: 440156886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_33
+      rect:
+        serializedVersion: 2
+        x: 9018
+        y: 8414
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8a851bbb66a2942bbf50ed8a8c1ad7
+      internalID: 1873248742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_34
+      rect:
+        serializedVersion: 2
+        x: 10020
+        y: 8414
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26f2dc34be77e04885485fb2e8aac70
+      internalID: -1343289432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_35
+      rect:
+        serializedVersion: 2
+        x: 11022
+        y: 8414
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b7fa1350997d954d972b3032eff5835
+      internalID: -257620383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7212
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f560e715a4461834594c335f0e6f71f0
+      internalID: -1199589904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_37
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 7212
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7470cc7445340424a99d4af248acb6a2
+      internalID: -337359551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_38
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 7212
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f45231f8b9824419de2df07d8a34eb
+      internalID: 1300107938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_39
+      rect:
+        serializedVersion: 2
+        x: 3006
+        y: 7212
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c35952e64c7fd44be5d2b79a680303
+      internalID: 2110021059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_40
+      rect:
+        serializedVersion: 2
+        x: 4008
+        y: 7212
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d7080deba4ac8e4c99fdea359b1a21a
+      internalID: -2017399352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_41
+      rect:
+        serializedVersion: 2
+        x: 5010
+        y: 7212
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26dbe6ec5fe2f9f4db2bea3f1a8f762e
+      internalID: -609479609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_42
+      rect:
+        serializedVersion: 2
+        x: 6012
+        y: 7212
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d7933447ea0604abb8b95434e57a39
+      internalID: 1640191704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_43
+      rect:
+        serializedVersion: 2
+        x: 7014
+        y: 7212
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d28e54f0f1bd154594bc98d934c2a99
+      internalID: 734440800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_44
+      rect:
+        serializedVersion: 2
+        x: 8016
+        y: 7212
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5981a4027cf66db4a822d16bf511137b
+      internalID: -952691173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_45
+      rect:
+        serializedVersion: 2
+        x: 9018
+        y: 7212
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2553be0da642cfb4e970717fc383a13e
+      internalID: -1104445318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_46
+      rect:
+        serializedVersion: 2
+        x: 10020
+        y: 7212
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02281989cc928741963a96803085a3c
+      internalID: 202804365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_47
+      rect:
+        serializedVersion: 2
+        x: 11022
+        y: 7212
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5cd0c5e1a3c2145b6ce53cdd55db05
+      internalID: -1212657845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6010
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94fab18502ec80544aa245f6dfb8c7bc
+      internalID: 828260812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_49
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 6010
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b92a3a4b3df664fbd58b8f22cfa2ea
+      internalID: 204516287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_50
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 6010
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6839bfa90c2da71459949996d9b7908e
+      internalID: -73646630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_51
+      rect:
+        serializedVersion: 2
+        x: 3006
+        y: 6010
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53bc38a57e4b5c245b4205cbc735ff9b
+      internalID: -189862253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_52
+      rect:
+        serializedVersion: 2
+        x: 4008
+        y: 6010
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c6f88d1f5a19f34aa9818870b9400fb
+      internalID: 1093861371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_53
+      rect:
+        serializedVersion: 2
+        x: 5010
+        y: 6010
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d72afc442501f58408efc0bdd3383ba6
+      internalID: -1937183618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_54
+      rect:
+        serializedVersion: 2
+        x: 6012
+        y: 6010
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3860414f5e65d3342844a86fff122619
+      internalID: -624503161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_55
+      rect:
+        serializedVersion: 2
+        x: 7014
+        y: 6010
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f5b0bd973b82ca4785610b46165cfbc
+      internalID: -2101185181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_56
+      rect:
+        serializedVersion: 2
+        x: 8016
+        y: 6010
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8133c9f6cef1e9742bbb2185bd8b70d0
+      internalID: -724245979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_57
+      rect:
+        serializedVersion: 2
+        x: 9018
+        y: 6010
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b8d3326eb9e974fb7e869d4a165cfe
+      internalID: 968970932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_58
+      rect:
+        serializedVersion: 2
+        x: 10020
+        y: 6010
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 515084d9a2b740f44aaf84cacc2d3382
+      internalID: -1302376237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_59
+      rect:
+        serializedVersion: 2
+        x: 11022
+        y: 6010
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76f3dd7f693310a4f87010bb0ce76b27
+      internalID: -1948753074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4808
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ed7f84b66ce3f469631a7bd0219ad9
+      internalID: 1576441263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_61
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 4808
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c3a33458fe0aa4695b2ec041279c5f
+      internalID: 1134381000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_62
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 4808
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84021b0b7557e5c4284e2879fab78038
+      internalID: 1119355154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_63
+      rect:
+        serializedVersion: 2
+        x: 3006
+        y: 4808
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fe626eef3461974fb309af181c95904
+      internalID: 78463097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_64
+      rect:
+        serializedVersion: 2
+        x: 4008
+        y: 4808
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f6e25660c2fce469b57b7ed22b6f5c
+      internalID: -130929916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_65
+      rect:
+        serializedVersion: 2
+        x: 5010
+        y: 4808
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6558b02157cc1d74caeeb094117e4a2a
+      internalID: -1044004426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_66
+      rect:
+        serializedVersion: 2
+        x: 6012
+        y: 4808
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 929b8d5b2dcef834b94e9ef045a9ffa7
+      internalID: 980617940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_67
+      rect:
+        serializedVersion: 2
+        x: 7014
+        y: 4808
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed45361528b8ec349ad975aea4e84b3c
+      internalID: -1555749517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_68
+      rect:
+        serializedVersion: 2
+        x: 8016
+        y: 4808
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce405e311673f394d9c6d5ec9c053da4
+      internalID: -1058149795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_69
+      rect:
+        serializedVersion: 2
+        x: 9018
+        y: 4808
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e02a4ed078e28c4e8c55496d250cf00
+      internalID: -102299558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_70
+      rect:
+        serializedVersion: 2
+        x: 10020
+        y: 4808
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a99c3bc83693ab4489e89994b3e98239
+      internalID: 1222794010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_71
+      rect:
+        serializedVersion: 2
+        x: 11022
+        y: 4808
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f4e7129d4fc444bbbc0b7be94cdc1a
+      internalID: -1239926721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3606
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab1f98bc79e7784791ea08e6055facc
+      internalID: -1038956395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_73
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 3606
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3fd7a05fefd5444aa6fd2ae75d9add5
+      internalID: 994998501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_74
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 3606
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20b7cec0ddb1b242ae306ea88b2c595
+      internalID: 200842048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_75
+      rect:
+        serializedVersion: 2
+        x: 3006
+        y: 3606
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e4555342a24fe46a3a3f9bba700f05
+      internalID: 1884518241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_76
+      rect:
+        serializedVersion: 2
+        x: 4008
+        y: 3606
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdaf2533941436d41a6d430700db20ed
+      internalID: 1977572695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_77
+      rect:
+        serializedVersion: 2
+        x: 5010
+        y: 3606
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b2a7e51e55882d4782f2b176e3bbd8b
+      internalID: -431864709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_78
+      rect:
+        serializedVersion: 2
+        x: 6012
+        y: 3606
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e18939c565d4b94a9c3651019f8fdc5
+      internalID: -2102363587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_79
+      rect:
+        serializedVersion: 2
+        x: 7014
+        y: 3606
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4410d95ee3d35cb4a968f4c5b1d12a5f
+      internalID: 566247011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_80
+      rect:
+        serializedVersion: 2
+        x: 8016
+        y: 3606
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f18f4226025204e967da3e063e615c
+      internalID: -1031414279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_81
+      rect:
+        serializedVersion: 2
+        x: 9018
+        y: 3606
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5caf4c2f8d64d84c9efc954ac6a6d32
+      internalID: -1422061601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_82
+      rect:
+        serializedVersion: 2
+        x: 10020
+        y: 3606
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9375d74c916d9db48a6a2151660a65c8
+      internalID: -307671822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_83
+      rect:
+        serializedVersion: 2
+        x: 11022
+        y: 3606
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b207eb950993d8a4fb516a245e4b2ced
+      internalID: 1668728697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2404
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a9f9872b46d44e4291af80a97c993ea
+      internalID: 1136868526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_85
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 2404
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 213f6821a35343844a8c46b07019cddc
+      internalID: -626823005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_86
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 2404
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac4e57b24596ce04d9dacbe87e1669de
+      internalID: -1813312576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_87
+      rect:
+        serializedVersion: 2
+        x: 3006
+        y: 2404
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2ccd0cce6fc054bbd5e45125019a70
+      internalID: -456725807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_88
+      rect:
+        serializedVersion: 2
+        x: 4008
+        y: 2404
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d670b7445e32a14d9eb917d4d946f0b
+      internalID: -1278025124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_89
+      rect:
+        serializedVersion: 2
+        x: 5010
+        y: 2404
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88b314fd66f4ec4e9ee4e1b8483377b
+      internalID: 2013573852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_90
+      rect:
+        serializedVersion: 2
+        x: 6012
+        y: 2404
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5664e3a81554f74fa564b625d390dbb
+      internalID: -1444984907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_91
+      rect:
+        serializedVersion: 2
+        x: 7014
+        y: 2404
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 817b3388fea0a2f489b6fd7bbb6cdea4
+      internalID: -1568654740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_92
+      rect:
+        serializedVersion: 2
+        x: 8016
+        y: 2404
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da9d9495b13427f478cd3383af444f8f
+      internalID: 624277939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_93
+      rect:
+        serializedVersion: 2
+        x: 9018
+        y: 2404
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49218301312d09a43abd79670a45210b
+      internalID: 153615944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_94
+      rect:
+        serializedVersion: 2
+        x: 10020
+        y: 2404
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e85f4899f1c2dd409d0c32c8d1b9f30
+      internalID: -1090231087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_95
+      rect:
+        serializedVersion: 2
+        x: 11022
+        y: 2404
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2945a3538f24334fa3cd850ff344645
+      internalID: 1493569660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1202
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e0686efec1330449cbf5113f945b87
+      internalID: -2060695248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_97
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 1202
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e16a8bf5526c77e45b5105b3adf91d86
+      internalID: 153784336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_98
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 1202
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c18408566bedd4a8321b3b5b6ff70d
+      internalID: 1463965343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_99
+      rect:
+        serializedVersion: 2
+        x: 3006
+        y: 1202
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f463ff95e695148905b5fc07f62126
+      internalID: 1080665862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_100
+      rect:
+        serializedVersion: 2
+        x: 4008
+        y: 1202
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2b65fedd6091049828776f72408eef
+      internalID: 1953369602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_101
+      rect:
+        serializedVersion: 2
+        x: 5010
+        y: 1202
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 068c060415591a746b681477c3d8e0c6
+      internalID: -990319885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_102
+      rect:
+        serializedVersion: 2
+        x: 6012
+        y: 1202
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 617fd9decad161a4dbcb16375a37f96d
+      internalID: -708280210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_103
+      rect:
+        serializedVersion: 2
+        x: 7014
+        y: 1202
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37748a98aa4fca241a86b016057a3107
+      internalID: 993814216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_104
+      rect:
+        serializedVersion: 2
+        x: 8016
+        y: 1202
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37de3a1fe6363f643b3cf5d03da6a50a
+      internalID: 1245685773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_105
+      rect:
+        serializedVersion: 2
+        x: 9018
+        y: 1202
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c875c70381ae413469db8b1d41aa67d9
+      internalID: -2087108050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_106
+      rect:
+        serializedVersion: 2
+        x: 10020
+        y: 1202
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d3816f8d913f440aea585fdf0e33fe
+      internalID: 1670589036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_107
+      rect:
+        serializedVersion: 2
+        x: 11022
+        y: 1202
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c5ba832d8f7f74aaaddac073326374
+      internalID: 47048222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4162b221f0444374d83dc7d40a8ce6f9
+      internalID: 584585786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_109
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 0
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 003ff5e05d03baa469df14c26a2d6ce1
+      internalID: 1657773629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_110
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 0
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ebd25a4aeebf647bf8ae569198c433
+      internalID: 542771208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_111
+      rect:
+        serializedVersion: 2
+        x: 3006
+        y: 0
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d622ca87f504c4b897cd43fe7c0887
+      internalID: 1724589437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_112
+      rect:
+        serializedVersion: 2
+        x: 4008
+        y: 0
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b08cfb423f7235c4da5a543539d9bb52
+      internalID: 1903834878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_113
+      rect:
+        serializedVersion: 2
+        x: 5010
+        y: 0
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da3a9f5bf670be544beeadda6a0269de
+      internalID: -654148812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_114
+      rect:
+        serializedVersion: 2
+        x: 6012
+        y: 0
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f38dc41a2f601a468d407445fd2097b
+      internalID: -241346235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_115
+      rect:
+        serializedVersion: 2
+        x: 7014
+        y: 0
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec6442a156dc9654295b6176a6899c43
+      internalID: 692220747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_116
+      rect:
+        serializedVersion: 2
+        x: 8016
+        y: 0
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be13dc0d1b3ada4192d047269c2f9c8
+      internalID: 1538698158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_117
+      rect:
+        serializedVersion: 2
+        x: 9018
+        y: 0
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd7b73e8520abd1438167a9392fcfe1f
+      internalID: 1657765335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_118
+      rect:
+        serializedVersion: 2
+        x: 10020
+        y: 0
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ed54b8f949cf3741b044aa0ae19b725
+      internalID: -984385197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Attack_119
+      rect:
+        serializedVersion: 2
+        x: 11022
+        y: 0
+        width: 1002
+        height: 1202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c63624e5a41cf264b81a86b00e4a9ea3
+      internalID: 1925552593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Enemy Attack_0: -337959091
+      Enemy Attack_1: 150600193
+      Enemy Attack_10: 1066735356
+      Enemy Attack_100: 1953369602
+      Enemy Attack_101: -990319885
+      Enemy Attack_102: -708280210
+      Enemy Attack_103: 993814216
+      Enemy Attack_104: 1245685773
+      Enemy Attack_105: -2087108050
+      Enemy Attack_106: 1670589036
+      Enemy Attack_107: 47048222
+      Enemy Attack_108: 584585786
+      Enemy Attack_109: 1657773629
+      Enemy Attack_11: -977508292
+      Enemy Attack_110: 542771208
+      Enemy Attack_111: 1724589437
+      Enemy Attack_112: 1903834878
+      Enemy Attack_113: -654148812
+      Enemy Attack_114: -241346235
+      Enemy Attack_115: 692220747
+      Enemy Attack_116: 1538698158
+      Enemy Attack_117: 1657765335
+      Enemy Attack_118: -984385197
+      Enemy Attack_119: 1925552593
+      Enemy Attack_12: 1115663
+      Enemy Attack_13: 409675831
+      Enemy Attack_14: 1164293956
+      Enemy Attack_15: -518421316
+      Enemy Attack_16: 1423326482
+      Enemy Attack_17: 304876157
+      Enemy Attack_18: -1146829813
+      Enemy Attack_19: 634104265
+      Enemy Attack_2: -202567801
+      Enemy Attack_20: 401890045
+      Enemy Attack_21: 939980530
+      Enemy Attack_22: -30895389
+      Enemy Attack_23: -795996630
+      Enemy Attack_24: -1078501321
+      Enemy Attack_25: -1631971038
+      Enemy Attack_26: -2009788384
+      Enemy Attack_27: 1373438962
+      Enemy Attack_28: -1041608651
+      Enemy Attack_29: 140616775
+      Enemy Attack_3: -1206418429
+      Enemy Attack_30: 724788767
+      Enemy Attack_31: 72939380
+      Enemy Attack_32: 440156886
+      Enemy Attack_33: 1873248742
+      Enemy Attack_34: -1343289432
+      Enemy Attack_35: -257620383
+      Enemy Attack_36: -1199589904
+      Enemy Attack_37: -337359551
+      Enemy Attack_38: 1300107938
+      Enemy Attack_39: 2110021059
+      Enemy Attack_4: -1422336101
+      Enemy Attack_40: -2017399352
+      Enemy Attack_41: -609479609
+      Enemy Attack_42: 1640191704
+      Enemy Attack_43: 734440800
+      Enemy Attack_44: -952691173
+      Enemy Attack_45: -1104445318
+      Enemy Attack_46: 202804365
+      Enemy Attack_47: -1212657845
+      Enemy Attack_48: 828260812
+      Enemy Attack_49: 204516287
+      Enemy Attack_5: 1957894548
+      Enemy Attack_50: -73646630
+      Enemy Attack_51: -189862253
+      Enemy Attack_52: 1093861371
+      Enemy Attack_53: -1937183618
+      Enemy Attack_54: -624503161
+      Enemy Attack_55: -2101185181
+      Enemy Attack_56: -724245979
+      Enemy Attack_57: 968970932
+      Enemy Attack_58: -1302376237
+      Enemy Attack_59: -1948753074
+      Enemy Attack_6: -542259634
+      Enemy Attack_60: 1576441263
+      Enemy Attack_61: 1134381000
+      Enemy Attack_62: 1119355154
+      Enemy Attack_63: 78463097
+      Enemy Attack_64: -130929916
+      Enemy Attack_65: -1044004426
+      Enemy Attack_66: 980617940
+      Enemy Attack_67: -1555749517
+      Enemy Attack_68: -1058149795
+      Enemy Attack_69: -102299558
+      Enemy Attack_7: 1113026915
+      Enemy Attack_70: 1222794010
+      Enemy Attack_71: -1239926721
+      Enemy Attack_72: -1038956395
+      Enemy Attack_73: 994998501
+      Enemy Attack_74: 200842048
+      Enemy Attack_75: 1884518241
+      Enemy Attack_76: 1977572695
+      Enemy Attack_77: -431864709
+      Enemy Attack_78: -2102363587
+      Enemy Attack_79: 566247011
+      Enemy Attack_8: 685151917
+      Enemy Attack_80: -1031414279
+      Enemy Attack_81: -1422061601
+      Enemy Attack_82: -307671822
+      Enemy Attack_83: 1668728697
+      Enemy Attack_84: 1136868526
+      Enemy Attack_85: -626823005
+      Enemy Attack_86: -1813312576
+      Enemy Attack_87: -456725807
+      Enemy Attack_88: -1278025124
+      Enemy Attack_89: 2013573852
+      Enemy Attack_9: -1531489770
+      Enemy Attack_90: -1444984907
+      Enemy Attack_91: -1568654740
+      Enemy Attack_92: 624277939
+      Enemy Attack_93: 153615944
+      Enemy Attack_94: -1090231087
+      Enemy Attack_95: 1493569660
+      Enemy Attack_96: -2060695248
+      Enemy Attack_97: 153784336
+      Enemy Attack_98: 1463965343
+      Enemy Attack_99: 1080665862
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
