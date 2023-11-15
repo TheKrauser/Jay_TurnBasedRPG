@@ -146,11 +146,16 @@ public class BattleHandler : MonoBehaviour
         }
     }
 
+    SpriteRenderer sprite;
+
     //Bool to handle if the current attack player will make is the normal one
     //If not, then its the ultimate attack
     bool isNormalAttack = true;
     public void Attack()
     {
+        sprite = currentTurnUnit.GetComponentInChildren<SpriteRenderer>();
+        sprite.sortingOrder = 9;
+        
         //Registers the initial position before start to walking towards the target
         var initialPosition = currentTurnUnit.transform.position;
         currentTurnUnit.transform.DOMove(targetUnit.transform.position - new Vector3(2, 0, 0), 1f).OnComplete(() =>
@@ -184,6 +189,7 @@ public class BattleHandler : MonoBehaviour
 
         currentTurnUnit.transform.DOMove(pos, 1f).OnComplete(() =>
         {
+            sprite.sortingOrder = 0;
             //When back to the initial position, go to the next characters turn
             ChangeTurn();
         });
@@ -226,6 +232,8 @@ public class BattleHandler : MonoBehaviour
             //Go to the target and attack
             unit.transform.DOMove(playerTeam[target].transform.position + new Vector3(2, 0, 0), 1f).OnComplete(() =>
             {
+                sprite = unit.GetComponentInChildren<SpriteRenderer>();
+                sprite.sortingOrder = 9;
                 unit.Attack(playerTeam[target]);
             });
 
@@ -235,6 +243,7 @@ public class BattleHandler : MonoBehaviour
             unit.transform.DOMove(initialPos, 1f);
             yield return new WaitForSeconds(1f);
             unit.SetCircleColor(Color.black);
+            sprite.sortingOrder = 0;
         }
 
         //When all the enemies attacked, simply toggle the isPlayerTurn to true
