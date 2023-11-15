@@ -23,4 +23,4 @@ MonoBehaviour:
   _colliderSize: {x: 0.7, y: 1.29}
   _colliderOffset: {x: -0.015, y: 0.48}
   _animator: {fileID: 22100000, guid: 30ccdece888b5ce4f83dd0cf00f1ddf4, type: 2}
-  _battleSprite: {fileID: 21300000, guid: 6a2361c874f04614aa6678963e036c0b, type: 3}
+  _battleSprite: {fileID: 21300000, guid: 69007b861529c33499d8376d0bb3444b, type: 3}

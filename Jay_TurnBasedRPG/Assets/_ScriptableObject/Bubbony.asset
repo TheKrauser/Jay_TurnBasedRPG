@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Bubbony
   m_EditorClassIdentifier: 
   _name: Bubbony
-  _health: 80
+  _health: 60
   _damage: 30
   _ultMax: 120
   _hasUltimate: 1
@@ -23,4 +23,4 @@ MonoBehaviour:
   _colliderSize: {x: 0.7, y: 1.29}
   _colliderOffset: {x: -0.015, y: 0.48}
   _animator: {fileID: 22100000, guid: 1c68473466e972a4ca17f05d9954f681, type: 2}
-  _battleSprite: {fileID: 21300000, guid: 0d06a46670c45134390f68348245692d, type: 3}
+  _battleSprite: {fileID: 21300000, guid: ebf428e75b0c6054c874ab8d4ef360b3, type: 3}

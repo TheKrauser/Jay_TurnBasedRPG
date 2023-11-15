@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Enemy
   _health: 65
-  _damage: 35
+  _damage: 25
   _ultMax: 0
   _hasUltimate: 0
   _flip: 0
@@ -23,4 +23,4 @@ MonoBehaviour:
   _colliderSize: {x: 0.7, y: 1.29}
   _colliderOffset: {x: -0.015, y: 0.48}
   _animator: {fileID: 22100000, guid: 2c390dfa0276f0d44bb0081aa1895ce0, type: 2}
-  _battleSprite: {fileID: 21300000, guid: db1b20508674a034fab0c07a846bcd40, type: 3}
+  _battleSprite: {fileID: 21300000, guid: 8ee310f3a8bcadb41963ac1b629080c7, type: 3}
