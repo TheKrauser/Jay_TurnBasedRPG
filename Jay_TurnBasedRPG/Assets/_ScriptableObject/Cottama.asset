@@ -19,7 +19,7 @@ MonoBehaviour:
   _hasUltimate: 0
   _flip: 0
   _visualPosition: {x: 0, y: -0.15, z: 0}
-  _visualSize: {x: 1, y: 1, z: 1}
+  _visualSize: {x: 0.8, y: 0.8, z: 0.8}
   _colliderSize: {x: 0.7, y: 1.29}
   _colliderOffset: {x: -0.015, y: 0.48}
   _animator: {fileID: 22100000, guid: 29c80e3d8b40ce54cbb6300d7a9837f4, type: 2}

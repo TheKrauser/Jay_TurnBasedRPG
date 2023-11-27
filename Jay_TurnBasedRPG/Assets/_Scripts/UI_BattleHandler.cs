@@ -18,6 +18,9 @@ public class UI_BattleHandler : MonoBehaviour
     [SerializeField] private TextMeshProUGUI infoUltimateText;
     [SerializeField] private TextMeshProUGUI infoDamageText;
 
+    [SerializeField] private TextMeshProUGUI textTurn;
+    [SerializeField] private TextMeshProUGUI textAct;
+
     [SerializeField] private Button attack;
     [SerializeField] private Button ultimate;
     [SerializeField] private Button bag;
@@ -40,7 +43,9 @@ public class UI_BattleHandler : MonoBehaviour
 
     private void BattleHandler_OnTurnChanged(object sender, EventArgs e)
     {
-        UpdateUltimateText();
+        UpdateTurnText();
+        Ultimate();
+        //UpdateUltimateText();
     }
 
     //Disable the UI buttons when a target is selected, to prevent clicks when the character is attacking
@@ -95,12 +100,37 @@ public class UI_BattleHandler : MonoBehaviour
         informations.SetActive(false);
     }
 
-    public void UpdateUltimateText()
+    /*public void UpdateUltimateText()
     {
         var ult = battleHandler.GetCurrentTurn().GetUltimate() * 100;
         infoUltimateText.text = ult.ToString("F0") + "%";
+    }*/
+
+    public void UpdateTurnText()
+    {
+        textTurn.text = $"{battleHandler.GetCurrentTurn().GetName()} Turn";
+
+        if(battleHandler.GetCurrentTurn().GetName() == "Cottama")
+        {
+            textAct.text = "HEAL";
+        }
+        else
+        {
+            textAct.text = "ATK";
+        }
     }
 
+    public void Ultimate()
+    {
+        if (battleHandler.GetCurrentTurn().GetUltimate() == 1)
+        {
+            ultimate.gameObject.SetActive(true);
+        }
+        else
+        {
+            ultimate.gameObject.SetActive(false);
+        }
+    }
 
     public void AttackButton()
     {

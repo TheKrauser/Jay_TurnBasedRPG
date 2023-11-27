@@ -45,12 +45,18 @@ public class BattleHandler : MonoBehaviour
 
     private void Start()
     {
-        StartBattle();
+       StartCoroutine(Waiting());
     }
 
     public void StartBattle()
     {
         TurnManager();
+    }
+
+    private IEnumerator Waiting()
+    {
+        yield return new WaitForSeconds(1.5f);
+        StartBattle();
     }
 
     private int playerTeamDeathCount = 0;

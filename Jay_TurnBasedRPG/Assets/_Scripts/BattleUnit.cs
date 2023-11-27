@@ -27,6 +27,7 @@ public class BattleUnit : MonoBehaviour
 
     private Sprite uiSprite;
     private Image healthBar;
+    private Image manaBar;
 
     private void Awake()
     {
@@ -37,7 +38,8 @@ public class BattleUnit : MonoBehaviour
         anim = visuals.GetComponent<Animator>();
 
         //Searches for the specific gameObject on the childrens of this object
-        healthBar = transform.Find("HealthBar/Canvas/Health/Bar").GetComponent<Image>();
+        healthBar = transform.Find("UI/Canvas/Health/Bar").GetComponent<Image>();
+        manaBar = transform.Find("UI/Canvas/Mana/Bar").GetComponent<Image>();
         circle = transform.Find("Circle").GetComponent<SpriteRenderer>();
     }
 
@@ -73,6 +75,7 @@ public class BattleUnit : MonoBehaviour
 
         uiSprite = character._battleSprite;
         healthBar.fillAmount = (float)currentHealth / maxHealth;
+        manaBar.fillAmount = (float)currentUlt / maxUlt;
     }
 
     //Functions to get the values from the variables without referencing them
@@ -131,6 +134,7 @@ public class BattleUnit : MonoBehaviour
         target.Damage((int)(damage * 2.5f));
         //Sets the ultimate back to zero
         currentUlt = 0;
+        manaBar.fillAmount = 0;
     }
 
     //Gain ult after attack
@@ -138,6 +142,7 @@ public class BattleUnit : MonoBehaviour
     {
         //Gains the ult equivalent to the base damage x2.5
         currentUlt += (int)(damage * 2.5f);
+        manaBar.fillAmount = (float)currentUlt / maxUlt;
 
         if (currentUlt >= maxUlt)
             currentUlt = maxUlt;
