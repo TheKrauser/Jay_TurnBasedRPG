@@ -1,0 +1,1296 @@
+fileFormatVersion: 2
+guid: 6892b0153026e9a4e8a0307ea580ed7c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: 74
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Enemy Hurt_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5614
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.51, y: 0.185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72507e3f73d204c4aa787da4f7dd3da3
+      internalID: -551580287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Hurt_1
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 5614
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.51, y: 0.185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cee1593bc5ffba46b70a1b634f2538e
+      internalID: -1020615123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Hurt_2
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 5614
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.51, y: 0.185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e914e77a9eafaf4090216d48e2aa421
+      internalID: -720088826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Hurt_3
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 5614
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.51, y: 0.185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ee63734803cff94f836c20223db5377
+      internalID: -12934945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Hurt_4
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 5614
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.51, y: 0.185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2492155bd17e31941a585525fdadf8c6
+      internalID: -102979155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Hurt_5
+      rect:
+        serializedVersion: 2
+        x: 4010
+        y: 5614
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.51, y: 0.185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d50318c389c5cd24ba63c5e24d1eae3a
+      internalID: -1843535462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Hurt_6
+      rect:
+        serializedVersion: 2
+        x: 4812
+        y: 5614
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.51, y: 0.185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 543548e626de0cc48a49c40f61dcc5c7
+      internalID: 1865317877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Hurt_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4812
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.51, y: 0.185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b43725be037c944b9622f7a890593b1
+      internalID: 1090848714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Hurt_9
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 4812
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.51, y: 0.185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f9b5c06638d5934ca1d022fcdf8cbaf
+      internalID: 430798502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Hurt_10
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 4812
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.51, y: 0.185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bcb52ee461d1724da47357aadd31257
+      internalID: 908158866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Hurt_11
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 4812
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.51, y: 0.185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ffa8c02056f2543a173decf6f6ae19
+      internalID: -123059830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Hurt_12
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 4812
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.51, y: 0.185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be34a6bac41ee745a5f3ca3dfc01337
+      internalID: -1700710378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Hurt_13
+      rect:
+        serializedVersion: 2
+        x: 4010
+        y: 4812
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.51, y: 0.185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69a06ffcf9717241b009d51a29e8768
+      internalID: -1724576220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Hurt_14
+      rect:
+        serializedVersion: 2
+        x: 4812
+        y: 4812
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.51, y: 0.185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e636b21beb8e144d8579f9f0bb08e7f
+      internalID: 96167455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Hurt_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4010
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.51, y: 0.185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7631363b85a39cc4aa91f265d4197df1
+      internalID: 1295178756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Hurt_17
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 4010
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.51, y: 0.185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: effd986165796e44e8ab01e49a1c137e
+      internalID: -507271729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Hurt_18
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 4010
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.51, y: 0.185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c2faade3759d034488cdf8c3c711a03
+      internalID: -1209174791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Hurt_19
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 4010
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.51, y: 0.185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13984d68b3598c4e8925e066551e06e
+      internalID: 150351975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Hurt_20
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 4010
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.51, y: 0.185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9710e16a21ee56847b1d938c62108387
+      internalID: -1733609110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Hurt_21
+      rect:
+        serializedVersion: 2
+        x: 4010
+        y: 4010
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.51, y: 0.185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99eb774b20f2370479fc50777c33ba4a
+      internalID: -76596773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Hurt_22
+      rect:
+        serializedVersion: 2
+        x: 4812
+        y: 4010
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.51, y: 0.185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a39e547418211684aa22b9ce7cd8ed8c
+      internalID: -513115746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Hurt_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3208
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.51, y: 0.185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c6fdc5bd09803641a8fc17d2fc7a46d
+      internalID: -1750278586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Hurt_25
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 3208
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.51, y: 0.185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b2de3907fd828241bc470ed553707e3
+      internalID: -219620414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Hurt_26
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 3208
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.51, y: 0.185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea86db98efba60b4db68d0b2ea097c72
+      internalID: 1897251359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Hurt_27
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 3208
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.51, y: 0.185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73abcc5b0da6e9e46be46a96dee4d97a
+      internalID: -159663432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Hurt_28
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 3208
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.51, y: 0.185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c92cec32e66a34f92c80b36cc5d5de
+      internalID: 1996296586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Hurt_29
+      rect:
+        serializedVersion: 2
+        x: 4010
+        y: 3208
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.51, y: 0.185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6421acfb4236d964f9308898e58f87b3
+      internalID: -375577145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Hurt_30
+      rect:
+        serializedVersion: 2
+        x: 4812
+        y: 3208
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.51, y: 0.185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a33a421ab617be4fb68979017a10879
+      internalID: 2135340994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Hurt_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2406
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.51, y: 0.185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0db0e9dbf27da9446a841be2c7a1ce72
+      internalID: -1456826515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Hurt_33
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 2406
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.51, y: 0.185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a1459970040b749b651c8ad8f50c1c
+      internalID: -647979377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Hurt_34
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 2406
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.51, y: 0.185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1210fcf938233f84ba2d21cac1a37e2a
+      internalID: 55261381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Hurt_35
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 2406
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.51, y: 0.185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a06af42924dd7b4aa59d941d3d74b26
+      internalID: -1289623232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Hurt_36
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 2406
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.51, y: 0.185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16fa229309456e143b3f5eee3c24e6d1
+      internalID: 1940481569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Hurt_37
+      rect:
+        serializedVersion: 2
+        x: 4010
+        y: 2406
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.51, y: 0.185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f82fd42440ce0ed4ca2ba47bcb153e25
+      internalID: -723876873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Hurt_38
+      rect:
+        serializedVersion: 2
+        x: 4812
+        y: 2406
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.51, y: 0.185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4780cde53f7fa9418ecf3d52861b56a
+      internalID: -1520858603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Hurt_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1604
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.51, y: 0.185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f2c9d5bd16b38642ac438b95cb7f5f0
+      internalID: 1679680329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Hurt_41
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 1604
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.51, y: 0.185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ff8a4bbedba3541bccad8603e1eabd
+      internalID: -1575194162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Hurt_42
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 1604
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.51, y: 0.185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c1c0fb7035b43458e838d11be71a84
+      internalID: 1630741672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Hurt_43
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 1604
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.51, y: 0.185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd914c279aa8f9144890c3160315e813
+      internalID: -869429839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Hurt_44
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 1604
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.51, y: 0.185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad7720da99c05d40b71e30205d08ab8
+      internalID: -1764966893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Hurt_45
+      rect:
+        serializedVersion: 2
+        x: 4010
+        y: 1604
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.51, y: 0.185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c653e046de14283478bba02ebcd30edc
+      internalID: 1950854233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Hurt_46
+      rect:
+        serializedVersion: 2
+        x: 4812
+        y: 1604
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.51, y: 0.185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf21a9e7af3baf4baa24d148869cd9e
+      internalID: -1053936319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Hurt_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 802
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.51, y: 0.185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6ce7e79dae6dc4086de4052cb1d985
+      internalID: -318896928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Hurt_49
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 802
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.51, y: 0.185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d2ae1931de1b1842a1d9bd1d14c4e67
+      internalID: -831927286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Hurt_50
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 802
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.51, y: 0.185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc2ca6d2afbd4d746a0730087cc0492e
+      internalID: 128866784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Hurt_51
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 802
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.51, y: 0.185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62399fc134e798745bd45cf6abdf820e
+      internalID: 1853660534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Hurt_52
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 802
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.51, y: 0.185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2611bb7cebb4f0a4aa475597bfbce615
+      internalID: 1485761469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Hurt_53
+      rect:
+        serializedVersion: 2
+        x: 4010
+        y: 802
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.51, y: 0.185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81baeaedb8581e34196b6bf45c7841c1
+      internalID: 579943051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Hurt_54
+      rect:
+        serializedVersion: 2
+        x: 4812
+        y: 802
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.51, y: 0.185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2227f15d8307a834b9ec0f4d3cae1213
+      internalID: 605623374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Hurt_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.51, y: 0.185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc9500b0a7b43bb448069cde79ae8fc5
+      internalID: 84661414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Hurt_57
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 0
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.51, y: 0.185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 001057b4d21eb05479091c037d0e6771
+      internalID: -682504687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Hurt_58
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 0
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.51, y: 0.185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac85bc0d5a0c1a4ead4927f6b16ca38
+      internalID: -1338146654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Hurt_59
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 0
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.51, y: 0.185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde5e6a5a52b3724d8682c1d9e25dae7
+      internalID: 428313969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Enemy Hurt_0: -551580287
+      Enemy Hurt_1: -1020615123
+      Enemy Hurt_10: 908158866
+      Enemy Hurt_11: -123059830
+      Enemy Hurt_12: -1700710378
+      Enemy Hurt_13: -1724576220
+      Enemy Hurt_14: 96167455
+      Enemy Hurt_15: 2030460570
+      Enemy Hurt_16: 1295178756
+      Enemy Hurt_17: -507271729
+      Enemy Hurt_18: -1209174791
+      Enemy Hurt_19: 150351975
+      Enemy Hurt_2: -720088826
+      Enemy Hurt_20: -1733609110
+      Enemy Hurt_21: -76596773
+      Enemy Hurt_22: -513115746
+      Enemy Hurt_23: -442026191
+      Enemy Hurt_24: -1750278586
+      Enemy Hurt_25: -219620414
+      Enemy Hurt_26: 1897251359
+      Enemy Hurt_27: -159663432
+      Enemy Hurt_28: 1996296586
+      Enemy Hurt_29: -375577145
+      Enemy Hurt_3: -12934945
+      Enemy Hurt_30: 2135340994
+      Enemy Hurt_31: 1242703702
+      Enemy Hurt_32: -1456826515
+      Enemy Hurt_33: -647979377
+      Enemy Hurt_34: 55261381
+      Enemy Hurt_35: -1289623232
+      Enemy Hurt_36: 1940481569
+      Enemy Hurt_37: -723876873
+      Enemy Hurt_38: -1520858603
+      Enemy Hurt_39: -415637729
+      Enemy Hurt_4: -102979155
+      Enemy Hurt_40: 1679680329
+      Enemy Hurt_41: -1575194162
+      Enemy Hurt_42: 1630741672
+      Enemy Hurt_43: -869429839
+      Enemy Hurt_44: -1764966893
+      Enemy Hurt_45: 1950854233
+      Enemy Hurt_46: -1053936319
+      Enemy Hurt_47: -80756978
+      Enemy Hurt_48: -318896928
+      Enemy Hurt_49: -831927286
+      Enemy Hurt_5: -1843535462
+      Enemy Hurt_50: 128866784
+      Enemy Hurt_51: 1853660534
+      Enemy Hurt_52: 1485761469
+      Enemy Hurt_53: 579943051
+      Enemy Hurt_54: 605623374
+      Enemy Hurt_55: 456528335
+      Enemy Hurt_56: 84661414
+      Enemy Hurt_57: -682504687
+      Enemy Hurt_58: -1338146654
+      Enemy Hurt_59: 428313969
+      Enemy Hurt_6: 1865317877
+      Enemy Hurt_7: -1920411413
+      Enemy Hurt_8: 1090848714
+      Enemy Hurt_9: 430798502
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

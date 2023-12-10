@@ -16,6 +16,8 @@ public class BattleUnit : MonoBehaviour
     private int damage;
 
     private bool hasUltimate;
+    private bool isFreezed;
+    private bool attackBuffed;
 
     private bool isDead = false;
 
@@ -28,6 +30,14 @@ public class BattleUnit : MonoBehaviour
     private Sprite uiSprite;
     private Image healthBar;
     private Image manaBar;
+    //private Image freezeIndicator;
+    //private Image attackBuffIndicator;
+
+    private Color currentColor = Color.white;
+
+    [SerializeField] private bool isTutorial;
+
+    private GameObject particleBuff, particleFreeze;
 
     private void Awake()
     {
@@ -40,7 +50,16 @@ public class BattleUnit : MonoBehaviour
         //Searches for the specific gameObject on the childrens of this object
         healthBar = transform.Find("UI/Canvas/Health/Bar").GetComponent<Image>();
         manaBar = transform.Find("UI/Canvas/Mana/Bar").GetComponent<Image>();
+        //freezeIndicator = transform.Find("UI/Canvas/Freeze").GetComponent<Image>();
+        //attackBuffIndicator = transform.Find("UI/Canvas/Buff").GetComponent<Image>();
+        particleBuff = transform.Find("Buff").gameObject;
+        particleFreeze = transform.Find("Freeze").gameObject;
         circle = transform.Find("Circle").GetComponent<SpriteRenderer>();
+
+        //freezeIndicator.enabled = false;
+        //attackBuffIndicator.enabled = false;
+        particleFreeze.gameObject.SetActive(false);
+        particleBuff.gameObject.SetActive(false);
     }
 
     private void Start()
@@ -59,6 +78,8 @@ public class BattleUnit : MonoBehaviour
         maxUlt = character._ultMax;
         currentUlt = 0;
         hasUltimate = character._hasUltimate;
+        isFreezed = false;
+        attackBuffed = false;
 
         visuals.localPosition = character._visualPosition;
         visuals.localScale = character._visualSize;
@@ -67,11 +88,6 @@ public class BattleUnit : MonoBehaviour
         box2D.offset = character._colliderOffset;
 
         anim.runtimeAnimatorController = character._animator;
-
-        if (character._name == "Hero")
-        {
-            currentHealth -= 30;
-        }
 
         uiSprite = character._battleSprite;
         healthBar.fillAmount = (float)currentHealth / maxHealth;
@@ -109,11 +125,53 @@ public class BattleUnit : MonoBehaviour
         return (float)currentUlt / maxUlt;
     }
 
+    public bool GetFreezed()
+    {
+        return isFreezed;
+    }
+
+    public void BuffAttack()
+    {
+        if (!attackBuffed)
+        {
+            AudioManager.Instance.PlaySound("Buff");
+            attackBuffed = true;
+            //currentColor = Color.red;
+            //attackBuffIndicator.enabled = true;
+            particleBuff.gameObject.SetActive(true);
+        }
+    }
+
+    public bool GetBuffed()
+    {
+        return attackBuffed;
+    }
+
+    public Color GetCurrentColor()
+    {
+        return currentColor;
+    }
+
     //Attacks the target
     public void Attack(BattleUnit target)
     {
         anim.SetTrigger("Attack");
-        target.Damage(damage);
+        if (attackBuffed)
+        {
+            StartCoroutine(PlaySound("Buffed"));
+            target.Damage((int)(damage * 1.5f));
+            attackBuffed = false;
+            particleBuff.gameObject.SetActive(false);
+            //currentColor = Color.white;
+            //attackBuffIndicator.enabled = false;
+        }
+        else
+        {
+            StartCoroutine(PlaySound("Damage"));
+            target.Damage(damage);
+        }
+
+        StartCoroutine(ParticleManager.Instance.InstantiateParticle("P3", target.transform, 3f, false, 2f, true));
         //Gain ult when attack
         if (hasUltimate)
         {
@@ -130,11 +188,50 @@ public class BattleUnit : MonoBehaviour
     //Same function as the normal attack, but dealing x2.5 the normal damage
     public void Ultimate(BattleUnit target)
     {
+        StartCoroutine(PlaySound("Ultimate"));
         anim.SetTrigger("Attack");
-        target.Damage((int)(damage * 2.5f));
+        if (!attackBuffed)
+        {
+            target.Damage((int)(damage * 2.5f));
+        }
+        else
+        {
+            target.Damage((int)(damage * 1.5f * 2.5f));
+            attackBuffed = false;
+            particleBuff.gameObject.SetActive(false);
+        }
+        StartCoroutine(ParticleManager.Instance.InstantiateParticle("P2", target.transform, 3f, false, 3f, true));
         //Sets the ultimate back to zero
         currentUlt = 0;
         manaBar.fillAmount = 0;
+    }
+
+    public IEnumerator PlaySound(string n)
+    {
+        yield return new WaitForSeconds(0.35f);
+        AudioManager.Instance.PlaySound(n);
+    }
+
+    public void Freeze()
+    {
+        if (!isFreezed)
+        {
+            AudioManager.Instance.PlaySound("Freeze");
+            sprite.color = Color.cyan;
+            isFreezed = true;
+            particleFreeze.gameObject.SetActive(true);
+            currentColor = Color.cyan;
+            //freezeIndicator.enabled = true;
+        }
+    }
+
+    public void RemoveFreeze()
+    {
+        isFreezed = false;
+        particleFreeze.gameObject.SetActive(false);
+        currentColor = Color.white;
+        sprite.color = currentColor;
+        //freezeIndicator.enabled = false;
     }
 
     //Gain ult after attack
@@ -152,7 +249,8 @@ public class BattleUnit : MonoBehaviour
     public void Damage(int damage)
     {
         currentHealth -= damage;
-        StartCoroutine(Blink(Color.red));
+        StartCoroutine(Blink());
+        StartCoroutine(Hurt());
 
         if (currentHealth <= 0)
         {
@@ -160,15 +258,29 @@ public class BattleUnit : MonoBehaviour
             isDead = true;
             //Disable the character on the scene instead of destroying it
             //It is better for now cause its not necessary to change the team arrays on BattleHandler script
-            gameObject.SetActive(false);
+            StartCoroutine(Dead());
             //Destroy(gameObject);
         }
     }
 
+    private IEnumerator Hurt()
+    {
+        yield return new WaitForSeconds(0.35f);
+        anim.SetTrigger("Hurt");
+    }
+
+    public IEnumerator Dead()
+    {
+        yield return new WaitForSeconds(0.35f);
+        gameObject.SetActive(false);
+    }
+
     public void RestoreHealth(int value)
     {
+        AudioManager.Instance.PlaySound("Heal");
         currentHealth += value;
-        StartCoroutine(Blink(Color.magenta));
+        StartCoroutine(Blink());
+        StartCoroutine(ParticleManager.Instance.InstantiateParticle("P1", transform, 3f, false, 1f, true));
 
         if (currentHealth > maxHealth)
         {
@@ -192,23 +304,30 @@ public class BattleUnit : MonoBehaviour
     }
 
     //Coroutine to change the sprite color when takes hit
-    private IEnumerator Blink(Color color)
+    private IEnumerator Blink()
     {
         yield return new WaitForSeconds(0.35f);
-        sprite.color = color;
+        //sprite.color = color;
         healthBar.fillAmount = (float)currentHealth / maxHealth;
         yield return new WaitForSeconds(0.2f);
-        sprite.color = Color.white;
+        //sprite.color = GetCurrentColor();
     }
 
     //Function called when a click occurs on the gameObject 2D collider
     private void OnMouseDown()
     {
-        //Only allows to get the target if is time to select
-        if (BattleHandler.Instance.isSelectingTarget)
+        if (!isTutorial)
         {
-            //Pass this script as the target selected
-            BattleHandler.Instance.SelectTarget(this);
+            //Only allows to get the target if is time to select
+            if (BattleHandler.Instance.isSelectingTarget)
+            {
+                //Pass this script as the target selected
+                BattleHandler.Instance.SelectTarget(this);
+            }
+            else if (BattleHandler.Instance.isUsingItem)
+            {
+                BattleHandler.Instance.SelectItemTarget(this);
+            }
         }
     }
 }

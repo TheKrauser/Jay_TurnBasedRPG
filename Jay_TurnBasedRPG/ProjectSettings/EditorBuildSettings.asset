@@ -9,6 +9,15 @@ EditorBuildSettings:
     path: Assets/_Scenes/Menu.unity
     guid: 09ae91ae3a31d1e488db6411bc075bef
   - enabled: 1
+    path: Assets/_Scenes/TutorialScene.unity
+    guid: d9f7f94570858194899c95c7bf49a767
+  - enabled: 1
     path: Assets/_Scenes/BattleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/_Scenes/BossBattle.unity
+    guid: 8b0a06ceee66fc046b1da06dedcdf200
+  - enabled: 1
+    path: Assets/_Scenes/Cutscene.unity
+    guid: 8aa7e8f38081a014eb5412071c1e8c4f
   m_configObjects: {}

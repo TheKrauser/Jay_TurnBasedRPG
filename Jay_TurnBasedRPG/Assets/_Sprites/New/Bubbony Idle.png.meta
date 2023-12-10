@@ -315,27 +315,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bubbony Idle_10
-      rect:
-        serializedVersion: 2
-        x: 8020
-        y: 8020
-        width: 802
-        height: 802
-      alignment: 9
-      pivot: {x: 0.5, y: 0.18}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f4e0beded266e834b8b3676d4505b407
-      internalID: -708251539
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Bubbony Idle_11
       rect:
         serializedVersion: 2
@@ -541,27 +520,6 @@ TextureImporter:
       bones: []
       spriteID: a9c47760ed432fd4784c05a0360af025
       internalID: 1522701756
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bubbony Idle_21
-      rect:
-        serializedVersion: 2
-        x: 8020
-        y: 7218
-        width: 802
-        height: 802
-      alignment: 9
-      pivot: {x: 0.5, y: 0.18}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c26bc7ee1c43f0d44a9dfdc676737e8a
-      internalID: -1493980098
       vertices: []
       indices: 
       edges: []
@@ -777,27 +735,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bubbony Idle_32
-      rect:
-        serializedVersion: 2
-        x: 8020
-        y: 6416
-        width: 802
-        height: 802
-      alignment: 9
-      pivot: {x: 0.5, y: 0.18}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4e59b9d4ed0200146a8b43496e300118
-      internalID: 303983858
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Bubbony Idle_33
       rect:
         serializedVersion: 2
@@ -1003,27 +940,6 @@ TextureImporter:
       bones: []
       spriteID: 3940f216acb3ade478c38bad2b3ab60a
       internalID: 1794522932
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bubbony Idle_43
-      rect:
-        serializedVersion: 2
-        x: 8020
-        y: 5614
-        width: 802
-        height: 802
-      alignment: 9
-      pivot: {x: 0.5, y: 0.18}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ae824a89c90e4324cbc25d28d9eca119
-      internalID: -1559555697
       vertices: []
       indices: 
       edges: []
@@ -1239,27 +1155,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bubbony Idle_54
-      rect:
-        serializedVersion: 2
-        x: 8020
-        y: 4812
-        width: 802
-        height: 802
-      alignment: 9
-      pivot: {x: 0.5, y: 0.18}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2a800aafa4ab7be4d96f8d596e7d4d41
-      internalID: -138678737
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Bubbony Idle_55
       rect:
         serializedVersion: 2
@@ -1465,27 +1360,6 @@ TextureImporter:
       bones: []
       spriteID: e2b945d36a4775a4c805daf0dbe429ee
       internalID: 1267947313
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bubbony Idle_65
-      rect:
-        serializedVersion: 2
-        x: 8020
-        y: 4010
-        width: 802
-        height: 802
-      alignment: 9
-      pivot: {x: 0.5, y: 0.18}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9594881b8b0784348a06517a707e2add
-      internalID: -623878790
       vertices: []
       indices: 
       edges: []
@@ -1701,27 +1575,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bubbony Idle_76
-      rect:
-        serializedVersion: 2
-        x: 8020
-        y: 3208
-        width: 802
-        height: 802
-      alignment: 9
-      pivot: {x: 0.5, y: 0.18}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b77aa25a413a47f41bc22cce6bd64cff
-      internalID: 1747578288
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Bubbony Idle_77
       rect:
         serializedVersion: 2
@@ -1927,27 +1780,6 @@ TextureImporter:
       bones: []
       spriteID: 9237ab15c500b504cab399f2ee8e80c1
       internalID: 1014682667
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bubbony Idle_87
-      rect:
-        serializedVersion: 2
-        x: 8020
-        y: 2406
-        width: 802
-        height: 802
-      alignment: 9
-      pivot: {x: 0.5, y: 0.18}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 77ab8508aa0e0c54ebd342fd6b29a6d6
-      internalID: -307750591
       vertices: []
       indices: 
       edges: []
@@ -2163,27 +1995,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bubbony Idle_98
-      rect:
-        serializedVersion: 2
-        x: 8020
-        y: 1604
-        width: 802
-        height: 802
-      alignment: 9
-      pivot: {x: 0.5, y: 0.18}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eea2158558ac2f94abdd44ec3747ffee
-      internalID: 1627577370
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Bubbony Idle_99
       rect:
         serializedVersion: 2
@@ -2389,27 +2200,6 @@ TextureImporter:
       bones: []
       spriteID: da38d28c04dc3eb40912a443eb12d22b
       internalID: -1174247649
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bubbony Idle_109
-      rect:
-        serializedVersion: 2
-        x: 8020
-        y: 802
-        width: 802
-        height: 802
-      alignment: 9
-      pivot: {x: 0.5, y: 0.18}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 32d6177ccdefe42479d5e12098e4688e
-      internalID: -1010935647
       vertices: []
       indices: 
       edges: []

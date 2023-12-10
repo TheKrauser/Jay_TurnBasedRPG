@@ -1,0 +1,2553 @@
+fileFormatVersion: 2
+guid: bc8783c2d4d55154e8438504136ad30b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: 74
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: COTTAMA HEALL_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8020
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 236e8bfa210b4e749b5247715b87b565
+      internalID: -1406243784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_1
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 8020
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b0d0af5032e05438087d8e0d97ab05
+      internalID: 969526035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_2
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 8020
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 554ffadc3a7685e47a91e1238d1b8c78
+      internalID: 764841937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_3
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 8020
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa7321dcaf40bf41b92cab0c4bd71c1
+      internalID: 506156781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_4
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 8020
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90a31a35775aef4185bcf7380df42ab
+      internalID: 444815612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_5
+      rect:
+        serializedVersion: 2
+        x: 4010
+        y: 8020
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727a092f77824504698267b474d80f12
+      internalID: -1910655547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_6
+      rect:
+        serializedVersion: 2
+        x: 4812
+        y: 8020
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd2366709620d6c49817b40b49a23379
+      internalID: -612752047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_7
+      rect:
+        serializedVersion: 2
+        x: 5614
+        y: 8020
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bebe1bd65135664ab40cd82d84fb306
+      internalID: -18979456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_8
+      rect:
+        serializedVersion: 2
+        x: 6416
+        y: 8020
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fd9afb53198563469545d5d7d86c91c
+      internalID: 300801759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_9
+      rect:
+        serializedVersion: 2
+        x: 7218
+        y: 8020
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a49f131ba59ca4a9014e6b11811b63
+      internalID: 1797494973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7218
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0fe1785333ece040a86026884012f30
+      internalID: 1122078117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_12
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 7218
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4e35f7ef82f3094887433d0fde61fef
+      internalID: 800984114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_13
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 7218
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b5da9381a1f8449976b6d31857bb34
+      internalID: 1444172241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_14
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 7218
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c6e7d937e8b684aa1ee18f6491a1f5
+      internalID: -319662512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_15
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 7218
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6782ef9ca8d94f54e8c1909c4153d15d
+      internalID: -1904908426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_16
+      rect:
+        serializedVersion: 2
+        x: 4010
+        y: 7218
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 189117bffa101ab4fbc24064350090e5
+      internalID: 983977234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_17
+      rect:
+        serializedVersion: 2
+        x: 4812
+        y: 7218
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42fdb7abbd2c9574780cf4e576c840f8
+      internalID: 1744121491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_18
+      rect:
+        serializedVersion: 2
+        x: 5614
+        y: 7218
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db8274f923064cf44bd43640e8671a60
+      internalID: -733241007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_19
+      rect:
+        serializedVersion: 2
+        x: 6416
+        y: 7218
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2edd2c8f94c45fb4ea2c7e906ce1e172
+      internalID: -1978612701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_20
+      rect:
+        serializedVersion: 2
+        x: 7218
+        y: 7218
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3446ea0e30066c14fa3277e15471776e
+      internalID: -825100998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6416
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f408891205da73a4b8f85e983bd682ad
+      internalID: -323595969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_23
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 6416
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1114679be053a5f44845b0f63f8bca3b
+      internalID: 855117284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_24
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 6416
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b53a9a18d06cbc44876b4a52c9ddcdf
+      internalID: -234808074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_25
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 6416
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad8c3a949cf92ee4da16b60cb5faa5b6
+      internalID: 289763793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_26
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 6416
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c5afa7af8d3f0d499720c0d2fda7d06
+      internalID: 1763021576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_27
+      rect:
+        serializedVersion: 2
+        x: 4010
+        y: 6416
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa391c06025144e479f88e268f54602c
+      internalID: 307433288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_28
+      rect:
+        serializedVersion: 2
+        x: 4812
+        y: 6416
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3c06f79c1e2c24789d607be64ca99f
+      internalID: -511020425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_29
+      rect:
+        serializedVersion: 2
+        x: 5614
+        y: 6416
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8942081c0f943348a26d37c67798054
+      internalID: -74581264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_30
+      rect:
+        serializedVersion: 2
+        x: 6416
+        y: 6416
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a443d0f35873c7b42a5409cad58dbdd8
+      internalID: 493731000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_31
+      rect:
+        serializedVersion: 2
+        x: 7218
+        y: 6416
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ded1bab5e6fe5244be71d070924faa0
+      internalID: 48640522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5614
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb9eaf0923c2435408dc81fa8266fcd6
+      internalID: 2083869638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_34
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 5614
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c354bfebbb09f4eb298401799cab93
+      internalID: -94499416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_35
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 5614
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c62e6f2b79c20e748a6e980c4f6540ce
+      internalID: 103472495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_36
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 5614
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b35c999a09f8743abf50fc4c78c9df
+      internalID: -1287050155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_37
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 5614
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f44bc72423b5a4f95d02fcf5931d6d
+      internalID: 576013836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_38
+      rect:
+        serializedVersion: 2
+        x: 4010
+        y: 5614
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6a80a1c6cf54943964c096feb17092
+      internalID: 661373868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_39
+      rect:
+        serializedVersion: 2
+        x: 4812
+        y: 5614
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f04cf5cf257c1746a299e073a47abb4
+      internalID: 2109004031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_40
+      rect:
+        serializedVersion: 2
+        x: 5614
+        y: 5614
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd67a65beb3445419742da3ed056b1c
+      internalID: -1176409836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_41
+      rect:
+        serializedVersion: 2
+        x: 6416
+        y: 5614
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f1e0774c9c137c49890c8d6e801092c
+      internalID: -1149974317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_42
+      rect:
+        serializedVersion: 2
+        x: 7218
+        y: 5614
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ea01df79655444884c610761c580de
+      internalID: -262235052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4812
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e30a503313374494f8041952a5d19348
+      internalID: -1168526194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_45
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 4812
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b14375b4e556d64685aa86d58b829c1
+      internalID: 132814859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_46
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 4812
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13af2eefd762ba488d03c1b177bd7a0
+      internalID: -740919399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_47
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 4812
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89429c7336b6d5f479ee7c180d73cbf1
+      internalID: -1536751944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_48
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 4812
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15488182317c1af46b162857547fa071
+      internalID: 1449571013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_49
+      rect:
+        serializedVersion: 2
+        x: 4010
+        y: 4812
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b69aab640f078348bbba09161010392
+      internalID: 1573061650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_50
+      rect:
+        serializedVersion: 2
+        x: 4812
+        y: 4812
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb62a961dc886f54491d333218373f89
+      internalID: -1765892089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_51
+      rect:
+        serializedVersion: 2
+        x: 5614
+        y: 4812
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8def7107d654934bae3e4016593034a
+      internalID: -801575720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_52
+      rect:
+        serializedVersion: 2
+        x: 6416
+        y: 4812
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d97e16d031bdf1479a8f30cb8e6aa0e
+      internalID: -1687004580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_53
+      rect:
+        serializedVersion: 2
+        x: 7218
+        y: 4812
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d13e89cc49684db4d85d0b0c6d6d948f
+      internalID: -1525261982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4010
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c486ab909660544e9059f58a727288e
+      internalID: 218621705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_56
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 4010
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d1f90854b178f14abd819cbe1727cb1
+      internalID: -1249420132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_57
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 4010
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a9b1c42cef6f3c4891649898053b4a7
+      internalID: -508680943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_58
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 4010
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acce30f3363887f4dbac34927341df6b
+      internalID: -821769625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_59
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 4010
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de8aa9c9f139ec48bafbfc3683b53e3
+      internalID: 155714786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_60
+      rect:
+        serializedVersion: 2
+        x: 4010
+        y: 4010
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f412158b1e435a4e856fcd2c54b07ba
+      internalID: -240895532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_61
+      rect:
+        serializedVersion: 2
+        x: 4812
+        y: 4010
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff9a5068ebd055447a1999c466261601
+      internalID: 173425040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_62
+      rect:
+        serializedVersion: 2
+        x: 5614
+        y: 4010
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24b0d1ba55ecde94b980146ee2d1f8cd
+      internalID: 1830078934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_63
+      rect:
+        serializedVersion: 2
+        x: 6416
+        y: 4010
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa8a25cd620abb04496eb0c93a9dc6a4
+      internalID: 1430924978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_64
+      rect:
+        serializedVersion: 2
+        x: 7218
+        y: 4010
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a0bf5440c3080d40886484264ba1398
+      internalID: -891916237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3208
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b29ab5aec8f8e498ebe5e4e1edb765
+      internalID: -418195272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_67
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 3208
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 615a42d8b7c119d4c9e73bef30498810
+      internalID: 1314320282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_68
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 3208
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfdaa894ce8538544b9c8e1fd3fae7c8
+      internalID: 374396156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_69
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 3208
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e42bd7c01528a41921121b9c6e1fa8
+      internalID: 298485840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_70
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 3208
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13ec3b2cb3c9e8c44b032b34d76df757
+      internalID: -168748529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_71
+      rect:
+        serializedVersion: 2
+        x: 4010
+        y: 3208
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d4062b690ea5354290001d935722773
+      internalID: 739750775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_72
+      rect:
+        serializedVersion: 2
+        x: 4812
+        y: 3208
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ba5d8f7161fc34ea2edbbf41bb6dd6
+      internalID: -2058073209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_73
+      rect:
+        serializedVersion: 2
+        x: 5614
+        y: 3208
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a805ada421a284f8597e9384fc9564
+      internalID: 1220608383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_74
+      rect:
+        serializedVersion: 2
+        x: 6416
+        y: 3208
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54cf212d2bebfcb438627c75af0031c1
+      internalID: 881187838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_75
+      rect:
+        serializedVersion: 2
+        x: 7218
+        y: 3208
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129477aa44c8d1b48b091b4030b824e2
+      internalID: -1817535478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2406
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d03bccd448730543be0d3027f16ee31
+      internalID: -2137827616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_78
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 2406
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1866e5e5871f46a4db1ea51fb0784f46
+      internalID: 968490583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_79
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 2406
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6639b2ab5cf575b418ddae265fa58d1a
+      internalID: 8360675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_80
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 2406
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c2d8d8fa98fa14d9b1028547cb549a
+      internalID: 643074447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_81
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 2406
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2becec50bcb9cd14b95bf5ecebe43647
+      internalID: 595241568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_82
+      rect:
+        serializedVersion: 2
+        x: 4010
+        y: 2406
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beda6dfe89813e54f9e6720891b4afd4
+      internalID: 785782941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_83
+      rect:
+        serializedVersion: 2
+        x: 4812
+        y: 2406
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4ac4eab56e06943bb528dc34f8c81c
+      internalID: 1197482479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_84
+      rect:
+        serializedVersion: 2
+        x: 5614
+        y: 2406
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1832270a81eb62246854e9cc3c709880
+      internalID: -1102111640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_85
+      rect:
+        serializedVersion: 2
+        x: 6416
+        y: 2406
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 983e137a8776fea41b66dbfe3df8ff1f
+      internalID: 1367111275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_86
+      rect:
+        serializedVersion: 2
+        x: 7218
+        y: 2406
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcdd55209333ceb46866eb8de6000e70
+      internalID: -1410598006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1604
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 303a89fc2c03b0a4cb0c94d623a21f94
+      internalID: 2031493579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_89
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 1604
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e79128e1a15089948bf9199aa424d301
+      internalID: -41502162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_90
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 1604
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e93826ad71d2e44b56cb45c4fe3d66
+      internalID: -1549011014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_91
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 1604
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328b5996bd0e7e248935de9788438487
+      internalID: -38124692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_92
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 1604
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e237f5f147c46d4392315ee2f30ea80
+      internalID: -1101395439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_93
+      rect:
+        serializedVersion: 2
+        x: 4010
+        y: 1604
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f88e3cec36fa3404c87d312205f14153
+      internalID: 1876184300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_94
+      rect:
+        serializedVersion: 2
+        x: 4812
+        y: 1604
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb8ebd6fe99b934e95ab16f5c851a51
+      internalID: -264548348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_95
+      rect:
+        serializedVersion: 2
+        x: 5614
+        y: 1604
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7bf4729e96062249a320f027da335ae
+      internalID: 2069006662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_96
+      rect:
+        serializedVersion: 2
+        x: 6416
+        y: 1604
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6963a87b60cb0074ab152cc18f53d0e9
+      internalID: -794473758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_97
+      rect:
+        serializedVersion: 2
+        x: 7218
+        y: 1604
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ee312819af8aa40b581ae315e411c2
+      internalID: -1388303816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_99
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 802
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5573240ad8f427c43b8cf5dc8d6c5477
+      internalID: -343727669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_100
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 802
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dbb0c2a8cc064d488b75d86a3808790
+      internalID: 1039695370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_101
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 802
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4bed5937f5245148a8f10922eadba8c
+      internalID: 1881389876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_102
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 802
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9738ca31b70d5424895d4f6a5d0f5b36
+      internalID: -952675437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_103
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 802
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a82f1978c945b84f879b4412382873f
+      internalID: -994398070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_104
+      rect:
+        serializedVersion: 2
+        x: 4010
+        y: 802
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b7613b268bf19479cc1ba1bd8e0a2e
+      internalID: -1499701341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_105
+      rect:
+        serializedVersion: 2
+        x: 4812
+        y: 802
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef71dd37025d76043b8399cdefc7bd33
+      internalID: -253550105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_106
+      rect:
+        serializedVersion: 2
+        x: 5614
+        y: 802
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 782b15842522c6841847a8a6f81640c8
+      internalID: 1257119851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_107
+      rect:
+        serializedVersion: 2
+        x: 6416
+        y: 802
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ead84d1e70f9ce04ea37b35586d597a6
+      internalID: 1186851583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_108
+      rect:
+        serializedVersion: 2
+        x: 7218
+        y: 802
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a698b27645ed3e43b8f40a56820e6f4
+      internalID: -1297631822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ce507d278bdc1469db866e39faeba7
+      internalID: 690609574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_111
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 0
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e2f02c626503741808d86b400b1ac1
+      internalID: 1538907982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_112
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 0
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6031c66b446c14fb5302d4ca7b81a0
+      internalID: 1605643780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_113
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 0
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6146fd195ef376b43ac8ce8be86ac94b
+      internalID: 1473956194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_114
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 0
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 318f2e89ae632b343a105a5340996b18
+      internalID: -788617194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_115
+      rect:
+        serializedVersion: 2
+        x: 4010
+        y: 0
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88b38fa92bb3b1045a2c55f80299b70b
+      internalID: 1984471403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_116
+      rect:
+        serializedVersion: 2
+        x: 4812
+        y: 0
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52a49ecc72087d46b8db4d0aee68d4a
+      internalID: 81724449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_117
+      rect:
+        serializedVersion: 2
+        x: 5614
+        y: 0
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20749c8b1b32abc40992216ca6b4b967
+      internalID: -1735525287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_118
+      rect:
+        serializedVersion: 2
+        x: 6416
+        y: 0
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba31828d34711d42a8169d45f7e51b0
+      internalID: -487101963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: COTTAMA HEALL_119
+      rect:
+        serializedVersion: 2
+        x: 7218
+        y: 0
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f39a5b72611189642b4d4d8733c47516
+      internalID: 2009160324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      COTTAMA HEALL_0: -1406243784
+      COTTAMA HEALL_1: 969526035
+      COTTAMA HEALL_10: 1685477529
+      COTTAMA HEALL_100: 1039695370
+      COTTAMA HEALL_101: 1881389876
+      COTTAMA HEALL_102: -952675437
+      COTTAMA HEALL_103: -994398070
+      COTTAMA HEALL_104: -1499701341
+      COTTAMA HEALL_105: -253550105
+      COTTAMA HEALL_106: 1257119851
+      COTTAMA HEALL_107: 1186851583
+      COTTAMA HEALL_108: -1297631822
+      COTTAMA HEALL_109: 320755211
+      COTTAMA HEALL_11: 1122078117
+      COTTAMA HEALL_110: 690609574
+      COTTAMA HEALL_111: 1538907982
+      COTTAMA HEALL_112: 1605643780
+      COTTAMA HEALL_113: 1473956194
+      COTTAMA HEALL_114: -788617194
+      COTTAMA HEALL_115: 1984471403
+      COTTAMA HEALL_116: 81724449
+      COTTAMA HEALL_117: -1735525287
+      COTTAMA HEALL_118: -487101963
+      COTTAMA HEALL_119: 2009160324
+      COTTAMA HEALL_12: 800984114
+      COTTAMA HEALL_13: 1444172241
+      COTTAMA HEALL_14: -319662512
+      COTTAMA HEALL_15: -1904908426
+      COTTAMA HEALL_16: 983977234
+      COTTAMA HEALL_17: 1744121491
+      COTTAMA HEALL_18: -733241007
+      COTTAMA HEALL_19: -1978612701
+      COTTAMA HEALL_2: 764841937
+      COTTAMA HEALL_20: -825100998
+      COTTAMA HEALL_21: -449724041
+      COTTAMA HEALL_22: -323595969
+      COTTAMA HEALL_23: 855117284
+      COTTAMA HEALL_24: -234808074
+      COTTAMA HEALL_25: 289763793
+      COTTAMA HEALL_26: 1763021576
+      COTTAMA HEALL_27: 307433288
+      COTTAMA HEALL_28: -511020425
+      COTTAMA HEALL_29: -74581264
+      COTTAMA HEALL_3: 506156781
+      COTTAMA HEALL_30: 493731000
+      COTTAMA HEALL_31: 48640522
+      COTTAMA HEALL_32: -538437397
+      COTTAMA HEALL_33: 2083869638
+      COTTAMA HEALL_34: -94499416
+      COTTAMA HEALL_35: 103472495
+      COTTAMA HEALL_36: -1287050155
+      COTTAMA HEALL_37: 576013836
+      COTTAMA HEALL_38: 661373868
+      COTTAMA HEALL_39: 2109004031
+      COTTAMA HEALL_4: 444815612
+      COTTAMA HEALL_40: -1176409836
+      COTTAMA HEALL_41: -1149974317
+      COTTAMA HEALL_42: -262235052
+      COTTAMA HEALL_43: 146384864
+      COTTAMA HEALL_44: -1168526194
+      COTTAMA HEALL_45: 132814859
+      COTTAMA HEALL_46: -740919399
+      COTTAMA HEALL_47: -1536751944
+      COTTAMA HEALL_48: 1449571013
+      COTTAMA HEALL_49: 1573061650
+      COTTAMA HEALL_5: -1910655547
+      COTTAMA HEALL_50: -1765892089
+      COTTAMA HEALL_51: -801575720
+      COTTAMA HEALL_52: -1687004580
+      COTTAMA HEALL_53: -1525261982
+      COTTAMA HEALL_54: -1804149972
+      COTTAMA HEALL_55: 218621705
+      COTTAMA HEALL_56: -1249420132
+      COTTAMA HEALL_57: -508680943
+      COTTAMA HEALL_58: -821769625
+      COTTAMA HEALL_59: 155714786
+      COTTAMA HEALL_6: -612752047
+      COTTAMA HEALL_60: -240895532
+      COTTAMA HEALL_61: 173425040
+      COTTAMA HEALL_62: 1830078934
+      COTTAMA HEALL_63: 1430924978
+      COTTAMA HEALL_64: -891916237
+      COTTAMA HEALL_65: -468727003
+      COTTAMA HEALL_66: -418195272
+      COTTAMA HEALL_67: 1314320282
+      COTTAMA HEALL_68: 374396156
+      COTTAMA HEALL_69: 298485840
+      COTTAMA HEALL_7: -18979456
+      COTTAMA HEALL_70: -168748529
+      COTTAMA HEALL_71: 739750775
+      COTTAMA HEALL_72: -2058073209
+      COTTAMA HEALL_73: 1220608383
+      COTTAMA HEALL_74: 881187838
+      COTTAMA HEALL_75: -1817535478
+      COTTAMA HEALL_76: -1677507794
+      COTTAMA HEALL_77: -2137827616
+      COTTAMA HEALL_78: 968490583
+      COTTAMA HEALL_79: 8360675
+      COTTAMA HEALL_8: 300801759
+      COTTAMA HEALL_80: 643074447
+      COTTAMA HEALL_81: 595241568
+      COTTAMA HEALL_82: 785782941
+      COTTAMA HEALL_83: 1197482479
+      COTTAMA HEALL_84: -1102111640
+      COTTAMA HEALL_85: 1367111275
+      COTTAMA HEALL_86: -1410598006
+      COTTAMA HEALL_87: -317886767
+      COTTAMA HEALL_88: 2031493579
+      COTTAMA HEALL_89: -41502162
+      COTTAMA HEALL_9: 1797494973
+      COTTAMA HEALL_90: -1549011014
+      COTTAMA HEALL_91: -38124692
+      COTTAMA HEALL_92: -1101395439
+      COTTAMA HEALL_93: 1876184300
+      COTTAMA HEALL_94: -264548348
+      COTTAMA HEALL_95: 2069006662
+      COTTAMA HEALL_96: -794473758
+      COTTAMA HEALL_97: -1388303816
+      COTTAMA HEALL_98: 1496821313
+      COTTAMA HEALL_99: -343727669
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

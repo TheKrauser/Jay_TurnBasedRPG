@@ -20,10 +20,16 @@ public class UI_BattleHandler : MonoBehaviour
 
     [SerializeField] private TextMeshProUGUI textTurn;
     [SerializeField] private TextMeshProUGUI textAct;
+    [SerializeField] private TextMeshProUGUI textHeal, textRevive, textFreeze;
 
     [SerializeField] private Button attack;
     [SerializeField] private Button ultimate;
     [SerializeField] private Button bag;
+    [SerializeField] private Button heal;
+
+    [SerializeField] private CanvasGroup pause;
+
+    private int healAmount = 2, reviveAmount = 2, freezeAmount = 2;
 
     [SerializeField] private CanvasGroup groupButtons;
 
@@ -80,7 +86,7 @@ public class UI_BattleHandler : MonoBehaviour
     private void MouseRaycast_MouseLeaveCharacter(object sender, MouseRaycast.OnMouseOverCharacterParameters e)
     {
         HideInformations();
-        e.unit.GetSpriteRenderer().color = Color.white;
+        e.unit.GetSpriteRenderer().color = e.unit.GetCurrentColor();
     }
 
     //Show the informations on screen
@@ -110,13 +116,68 @@ public class UI_BattleHandler : MonoBehaviour
     {
         textTurn.text = $"{battleHandler.GetCurrentTurn().GetName()} Turn";
 
-        if(battleHandler.GetCurrentTurn().GetName() == "Cottama")
+        if (battleHandler.GetCurrentTurn().GetName() == "Cottama")
         {
-            textAct.text = "HEAL";
+            heal.gameObject.SetActive(true);
+            attack.gameObject.SetActive(false);
         }
         else
         {
-            textAct.text = "ATK";
+            attack.gameObject.SetActive(true);
+            heal.gameObject.SetActive(false);
+        }
+    }
+
+    public int GetItemAmount(string itemName)
+    {
+        if (itemName == "Heal")
+        {
+            return healAmount;
+        }
+        else if (itemName == "Revive")
+        {
+            return reviveAmount;
+        }
+        else
+        {
+            return freezeAmount;
+        }
+    }
+
+    public void UseItem(string itemName)
+    {
+        if (itemName == "Heal")
+        {
+            healAmount--;
+
+            if (healAmount < 0)
+            {
+                healAmount = 0;
+            }
+
+            textHeal.text = healAmount.ToString();
+        }
+        else if (itemName == "Revive")
+        {
+            reviveAmount--;
+
+            if (reviveAmount < 0)
+            {
+                reviveAmount = 0;
+            }
+
+            textRevive.text = reviveAmount.ToString();
+        }
+        else
+        {
+            freezeAmount--;
+
+            if (freezeAmount < 0)
+            {
+                freezeAmount = 0;
+            }
+
+            textFreeze.text = freezeAmount.ToString();
         }
     }
 
@@ -148,6 +209,52 @@ public class UI_BattleHandler : MonoBehaviour
             battleHandler.IsSelectingTarget(true);
             battleHandler.SetAttackType(false);
         }
+    }
+
+    public void HealButton()
+    {
+        battleHandler.IsSelectingTarget(false);
+        battleHandler.SelectedItem(1);
+        battleHandler.IsUsingItem(true, true);
+    }
+
+    public void ReviveButton()
+    {
+        battleHandler.IsSelectingTarget(false);
+        battleHandler.SelectedItem(2);
+        battleHandler.IsUsingItem(true, true);
+    }
+
+    public void FreezeButton()
+    {
+        battleHandler.IsSelectingTarget(false);
+        battleHandler.SelectedItem(3);
+        battleHandler.IsUsingItem(true, false);
+    }
+
+    public void Pause(bool open)
+    {
+        if (open)
+        {
+            Time.timeScale = 0;
+
+            pause.alpha = 1;
+            pause.interactable = true;
+            pause.blocksRaycasts = true;
+        }
+        else
+        {
+            Time.timeScale = 1;
+
+            pause.alpha = 0;
+            pause.interactable = false;
+            pause.blocksRaycasts = false;
+        }
+    }
+
+    public void Menu()
+    {
+        SceneManager.LoadScene("Menu");
     }
 
     public void Restart()

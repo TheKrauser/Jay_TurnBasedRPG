@@ -16,7 +16,7 @@ public class MenuManager : MonoBehaviour
 
     public void SelectStage()
     {
-        SceneManager.LoadScene("BattleScene");
+        SceneManager.LoadScene("Cutscene");
     }
 
     public void Back()

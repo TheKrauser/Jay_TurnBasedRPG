@@ -1,0 +1,2553 @@
+fileFormatVersion: 2
+guid: 4554511d98511614589b9e1a7f54f4c4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: 74
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Boss Idle Fix_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8020
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77100c13e1c90e0408cb9cea35caf9b3
+      internalID: 1266867342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_1
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 8020
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d263d4faa9616a54786a01b4066dd583
+      internalID: -1347304688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_2
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 8020
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426a90db47bc73d4a97dfdb532933a6c
+      internalID: -576381871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_3
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 8020
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e285c10afd2d23c45928dea78b8d6e81
+      internalID: 1757443800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_4
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 8020
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da865759368c7d4486faf26501f2b20
+      internalID: 1441404627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_5
+      rect:
+        serializedVersion: 2
+        x: 4010
+        y: 8020
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 153acd92ed44d884d849d8a30885cff1
+      internalID: -620616734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_6
+      rect:
+        serializedVersion: 2
+        x: 4812
+        y: 8020
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d7004f31bf50e64aa0de4a6036f2327
+      internalID: -286203997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_7
+      rect:
+        serializedVersion: 2
+        x: 5614
+        y: 8020
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62e5b305777f1614b8b4623dee2ad82c
+      internalID: -58297192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_8
+      rect:
+        serializedVersion: 2
+        x: 6416
+        y: 8020
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04bc5ce02fc36fa4fb6c6b93738fc008
+      internalID: 1000688774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_9
+      rect:
+        serializedVersion: 2
+        x: 7218
+        y: 8020
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bb9cc44236af57478c5a5659c6736fe
+      internalID: 1923050217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7218
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1740b3da53ec3b4eb5984d816b018df
+      internalID: -703382593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_12
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 7218
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac9e3937aca6c04aafb7421fcdbfa73
+      internalID: 1218715876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_13
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 7218
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59327706f44dfcc47841baa755a7d433
+      internalID: -476564072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_14
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 7218
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff146b664c19c7449b4ebb61a5b7674
+      internalID: 974482679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_15
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 7218
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6e6b1a973d0b64fb7fda6e2a14d0aa
+      internalID: 2098176131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_16
+      rect:
+        serializedVersion: 2
+        x: 4010
+        y: 7218
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee6657b7d701b6d4abc4bbc8e0088bdf
+      internalID: -409020449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_17
+      rect:
+        serializedVersion: 2
+        x: 4812
+        y: 7218
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 494f8402384ebf242b24e4270e801cf2
+      internalID: -870451403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_18
+      rect:
+        serializedVersion: 2
+        x: 5614
+        y: 7218
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97968ca092cd7f14183ddabbc12ea317
+      internalID: -541539483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_19
+      rect:
+        serializedVersion: 2
+        x: 6416
+        y: 7218
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f329858ced375f4a95aceacc0829fab
+      internalID: 1367803846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_20
+      rect:
+        serializedVersion: 2
+        x: 7218
+        y: 7218
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2bedf3e729a2643a1f7fa88ecd2007
+      internalID: 1429193153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6416
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd650288d2a9df4387a84d820fe09ae
+      internalID: 551599161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_23
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 6416
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94d9dce5b8ae1d14a9b6ca735ab4a06c
+      internalID: 1280282025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_24
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 6416
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b121975d4e7393b48926627ff43bf4a1
+      internalID: -474383244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_25
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 6416
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751f6357a671e594d8ea152347389e0e
+      internalID: 164201460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_26
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 6416
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36faefe79ad24554eb3fdb45e705b2f6
+      internalID: -2031304010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_27
+      rect:
+        serializedVersion: 2
+        x: 4010
+        y: 6416
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea0078002818ef44aee64c6f26cbbc0
+      internalID: -611738042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_28
+      rect:
+        serializedVersion: 2
+        x: 4812
+        y: 6416
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 030909a1d96337c4bb09ce0ecedfc58b
+      internalID: -1405439642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_29
+      rect:
+        serializedVersion: 2
+        x: 5614
+        y: 6416
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c117064ed7f4240950d59a96793472
+      internalID: -243116801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_30
+      rect:
+        serializedVersion: 2
+        x: 6416
+        y: 6416
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f14416fec38624cb0588dfcea98c57
+      internalID: 1618968045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_31
+      rect:
+        serializedVersion: 2
+        x: 7218
+        y: 6416
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18600c637f4461343a3b75b3eb374480
+      internalID: -416689181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5614
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 188df84e05ef39d4da446f7e55d672b5
+      internalID: -1108327727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_34
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 5614
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac0cdaf13244ecd408eff819b5acee2f
+      internalID: 1242744530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_35
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 5614
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a6a59756986ad34c8e8cdbd4894bc36
+      internalID: -1182254720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_36
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 5614
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 109333ed32cd9de48890e966c297f5bf
+      internalID: -1554254102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_37
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 5614
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 703565c356e1f2641af42a30033068b2
+      internalID: 760040427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_38
+      rect:
+        serializedVersion: 2
+        x: 4010
+        y: 5614
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fea95d2af6ca444798af7f047798939
+      internalID: -663435095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_39
+      rect:
+        serializedVersion: 2
+        x: 4812
+        y: 5614
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aafc234ca33b714b9785015cb6fa247
+      internalID: 93147675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_40
+      rect:
+        serializedVersion: 2
+        x: 5614
+        y: 5614
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7672e13667774644e80115c5c1940231
+      internalID: 1976153255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_41
+      rect:
+        serializedVersion: 2
+        x: 6416
+        y: 5614
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c1574e955727847b0d34e6080d1d08
+      internalID: 1229742511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_42
+      rect:
+        serializedVersion: 2
+        x: 7218
+        y: 5614
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af8ca124a6a37c40862945148839034
+      internalID: 940934494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4812
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b0b34d922ce6247bab9181e46f42f6
+      internalID: 73048416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_45
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 4812
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db45e998b6c97a4c9cdce9de3b1e2a4
+      internalID: -1306850165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_46
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 4812
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b0b813bf2ac14b4cbbe373a3e43fea5
+      internalID: 753729114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_47
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 4812
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a8d6b8cb806c647abd181c39e842cf
+      internalID: -91510538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_48
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 4812
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f69beae3f4019f499198be32b9820a6
+      internalID: -2010264748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_49
+      rect:
+        serializedVersion: 2
+        x: 4010
+        y: 4812
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ef1828eb0d46a40b5766acbcc16671
+      internalID: 119759819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_50
+      rect:
+        serializedVersion: 2
+        x: 4812
+        y: 4812
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e0d0f203ec6e8f49b0829cdb2d99680
+      internalID: 1460811963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_51
+      rect:
+        serializedVersion: 2
+        x: 5614
+        y: 4812
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ab067988d0e484e90ea5e7589c3df1
+      internalID: 75250503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_52
+      rect:
+        serializedVersion: 2
+        x: 6416
+        y: 4812
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f09e5e3ae12c3943a4eed4e92d0602f
+      internalID: 1824139278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_53
+      rect:
+        serializedVersion: 2
+        x: 7218
+        y: 4812
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28353fffacda9dc4986d23db677c8f4c
+      internalID: -1398201549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4010
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09425b3e528d24b4aac89233d58eeb52
+      internalID: -927616062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_56
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 4010
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9e75a10d4c9bba468707cff999d2994
+      internalID: -1771123933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_57
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 4010
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b5fd5475bd22db4d98fddc9fdadebb5
+      internalID: 1518282350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_58
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 4010
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02db427213180d14d905420488828001
+      internalID: -1377304888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_59
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 4010
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2afc2c8d08639e644b04a4435973a67c
+      internalID: 1907797147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_60
+      rect:
+        serializedVersion: 2
+        x: 4010
+        y: 4010
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc9bd89db4a0ee14a9c9ffc9efa3732f
+      internalID: 2038804136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_61
+      rect:
+        serializedVersion: 2
+        x: 4812
+        y: 4010
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950e34178e7c13a45ab46f074f945629
+      internalID: 1973408456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_62
+      rect:
+        serializedVersion: 2
+        x: 5614
+        y: 4010
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598e9859aa6471640a65707bf800792e
+      internalID: 1895183324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_63
+      rect:
+        serializedVersion: 2
+        x: 6416
+        y: 4010
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ceda38a27d35aa47a1fe2aeae4dd6ec
+      internalID: 1300132692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_64
+      rect:
+        serializedVersion: 2
+        x: 7218
+        y: 4010
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea507295463b6e247a0a7e29eba06796
+      internalID: -1034256393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3208
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb4e289a5b98483498a00f996c49964c
+      internalID: 1728537821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_67
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 3208
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b5a0b21b8094c844b498f1d8e5cdf2e
+      internalID: -1712255860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_68
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 3208
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 572aced23a04d7845a7f3d0a7820427c
+      internalID: 1254385860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_69
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 3208
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f062380efeac6b94eadaf07a98240885
+      internalID: 1299020131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_70
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 3208
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e581918d6bf46964eb1b2fc2693e61a0
+      internalID: 156873760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_71
+      rect:
+        serializedVersion: 2
+        x: 4010
+        y: 3208
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45adc1a53ed12c04993da6c24008610a
+      internalID: -1537512450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_72
+      rect:
+        serializedVersion: 2
+        x: 4812
+        y: 3208
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb5d73a48bdab345b7394a7e0de84f6
+      internalID: -1999222538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_73
+      rect:
+        serializedVersion: 2
+        x: 5614
+        y: 3208
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd80216abda63341a05ac67c1ab07d3
+      internalID: -1105215442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_74
+      rect:
+        serializedVersion: 2
+        x: 6416
+        y: 3208
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8a2b476289dadf4581f13c0605ce273
+      internalID: -999764294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_75
+      rect:
+        serializedVersion: 2
+        x: 7218
+        y: 3208
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afba60629d9e464498d844aa45e91be0
+      internalID: 815484282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2406
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 040526a99467f46488ca4e4eb7e29249
+      internalID: 396989858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_78
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 2406
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f3ade9cdd79d1948b43f259b9835ae6
+      internalID: -278652546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_79
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 2406
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5b1fae517b870a43900ca32a8073c2c
+      internalID: -1348244750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_80
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 2406
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbea668d8eecb9449b810d3ec2189b9a
+      internalID: -951559998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_81
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 2406
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72e3994b833b24648acafac8c14c36ad
+      internalID: 1387087519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_82
+      rect:
+        serializedVersion: 2
+        x: 4010
+        y: 2406
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 246a00c9a17683340904bad5be7e45d0
+      internalID: 40522619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_83
+      rect:
+        serializedVersion: 2
+        x: 4812
+        y: 2406
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 898095cd80ef27b49808134056aa232d
+      internalID: -363861312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_84
+      rect:
+        serializedVersion: 2
+        x: 5614
+        y: 2406
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3547d4b8fb389844b15e4951c510f94
+      internalID: -750413570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_85
+      rect:
+        serializedVersion: 2
+        x: 6416
+        y: 2406
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3026237687eaa40921fe52e6ef9f32
+      internalID: -897634077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_86
+      rect:
+        serializedVersion: 2
+        x: 7218
+        y: 2406
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2ad6a3001982724cb95c0ca3f8c4659
+      internalID: 658767152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1604
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13532fe5a744d9b4cbcd7d24486b15f0
+      internalID: 1738301887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_89
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 1604
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b9b33f8354c23f46a077480a71b2b46
+      internalID: -749645488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_90
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 1604
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86c2d22f7edaf854c9bee2a2de748dd4
+      internalID: -697726818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_91
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 1604
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e538f075d548248469c6522e5872f7ba
+      internalID: 204709936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_92
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 1604
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d213d61fcfc99da449825a820d6dff53
+      internalID: 1590769969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_93
+      rect:
+        serializedVersion: 2
+        x: 4010
+        y: 1604
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f90632e6a7c061f47a895906fb0945e5
+      internalID: -801771787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_94
+      rect:
+        serializedVersion: 2
+        x: 4812
+        y: 1604
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e1f557aa8e8c04fa6810ec2bf74f80
+      internalID: 1051780250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_95
+      rect:
+        serializedVersion: 2
+        x: 5614
+        y: 1604
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef58227df111b774abf4e3dbb5e77425
+      internalID: -501222712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_96
+      rect:
+        serializedVersion: 2
+        x: 6416
+        y: 1604
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18964dfbc7a53874bad0116c3c8b1fda
+      internalID: 1737931613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_97
+      rect:
+        serializedVersion: 2
+        x: 7218
+        y: 1604
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d200e25e204622549b42f2debe228514
+      internalID: -454312171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_99
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 802
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afec1bef778c17140bf2d92ff3de8358
+      internalID: -73583166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_100
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 802
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee0508cc0e13d0468ef475d98a6e5bb
+      internalID: -1518886638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_101
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 802
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95e16285250ed5428974302275c3c01
+      internalID: 901754242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_102
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 802
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f278c0f596d826b488d4761d84838656
+      internalID: 251362122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_103
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 802
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6630d0911ade7c499a1d4e3696240ba
+      internalID: -2131047482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_104
+      rect:
+        serializedVersion: 2
+        x: 4010
+        y: 802
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c734668b1bb13479dab624c262a463
+      internalID: -91372108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_105
+      rect:
+        serializedVersion: 2
+        x: 4812
+        y: 802
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df047b6660fa9a74e95f6aae2e2a27f2
+      internalID: -2126930421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_106
+      rect:
+        serializedVersion: 2
+        x: 5614
+        y: 802
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c897b27f1a8e943409e8d9111d2d8697
+      internalID: -1695092828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_107
+      rect:
+        serializedVersion: 2
+        x: 6416
+        y: 802
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d0b5bb15e4985145900ba420d857b4f
+      internalID: -1148750431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_108
+      rect:
+        serializedVersion: 2
+        x: 7218
+        y: 802
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ca9f9e1918b634c9d5aaa2a3e2244c
+      internalID: 1039070163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0326b62d2669a48479594957488b6f76
+      internalID: 1561880925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_111
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 0
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483a589cadaaad04691a9e6a1fb85c9e
+      internalID: 931421681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_112
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 0
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd4d33ad74090c4890664f84a5387b9
+      internalID: -1169366000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_113
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 0
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed1900f9eaeb5c439cb15d205abaee6
+      internalID: 1094017348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_114
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 0
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16bf7467722a72943984430032aaabd0
+      internalID: -1506900802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_115
+      rect:
+        serializedVersion: 2
+        x: 4010
+        y: 0
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 596a92fccdd80eb4cb6b502132d06055
+      internalID: 622307314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_116
+      rect:
+        serializedVersion: 2
+        x: 4812
+        y: 0
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad1231d2ff917fd4fa4fa385cd9e5bb7
+      internalID: 643163698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_117
+      rect:
+        serializedVersion: 2
+        x: 5614
+        y: 0
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8048bc2afa5e25c4e9a8e47094d821ba
+      internalID: -204499064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_118
+      rect:
+        serializedVersion: 2
+        x: 6416
+        y: 0
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd38d118426415c419eed76eb78e291c
+      internalID: 1962851251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Idle Fix_119
+      rect:
+        serializedVersion: 2
+        x: 7218
+        y: 0
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.616, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ecce01775f2c74aa72385a4827a20f
+      internalID: 1768215764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Boss Idle Fix_0: 1266867342
+      Boss Idle Fix_1: -1347304688
+      Boss Idle Fix_10: 965038013
+      Boss Idle Fix_100: -1518886638
+      Boss Idle Fix_101: 901754242
+      Boss Idle Fix_102: 251362122
+      Boss Idle Fix_103: -2131047482
+      Boss Idle Fix_104: -91372108
+      Boss Idle Fix_105: -2126930421
+      Boss Idle Fix_106: -1695092828
+      Boss Idle Fix_107: -1148750431
+      Boss Idle Fix_108: 1039070163
+      Boss Idle Fix_109: 1616207785
+      Boss Idle Fix_11: -703382593
+      Boss Idle Fix_110: 1561880925
+      Boss Idle Fix_111: 931421681
+      Boss Idle Fix_112: -1169366000
+      Boss Idle Fix_113: 1094017348
+      Boss Idle Fix_114: -1506900802
+      Boss Idle Fix_115: 622307314
+      Boss Idle Fix_116: 643163698
+      Boss Idle Fix_117: -204499064
+      Boss Idle Fix_118: 1962851251
+      Boss Idle Fix_119: 1768215764
+      Boss Idle Fix_12: 1218715876
+      Boss Idle Fix_13: -476564072
+      Boss Idle Fix_14: 974482679
+      Boss Idle Fix_15: 2098176131
+      Boss Idle Fix_16: -409020449
+      Boss Idle Fix_17: -870451403
+      Boss Idle Fix_18: -541539483
+      Boss Idle Fix_19: 1367803846
+      Boss Idle Fix_2: -576381871
+      Boss Idle Fix_20: 1429193153
+      Boss Idle Fix_21: 1630512706
+      Boss Idle Fix_22: 551599161
+      Boss Idle Fix_23: 1280282025
+      Boss Idle Fix_24: -474383244
+      Boss Idle Fix_25: 164201460
+      Boss Idle Fix_26: -2031304010
+      Boss Idle Fix_27: -611738042
+      Boss Idle Fix_28: -1405439642
+      Boss Idle Fix_29: -243116801
+      Boss Idle Fix_3: 1757443800
+      Boss Idle Fix_30: 1618968045
+      Boss Idle Fix_31: -416689181
+      Boss Idle Fix_32: -1899912312
+      Boss Idle Fix_33: -1108327727
+      Boss Idle Fix_34: 1242744530
+      Boss Idle Fix_35: -1182254720
+      Boss Idle Fix_36: -1554254102
+      Boss Idle Fix_37: 760040427
+      Boss Idle Fix_38: -663435095
+      Boss Idle Fix_39: 93147675
+      Boss Idle Fix_4: 1441404627
+      Boss Idle Fix_40: 1976153255
+      Boss Idle Fix_41: 1229742511
+      Boss Idle Fix_42: 940934494
+      Boss Idle Fix_43: -1407681722
+      Boss Idle Fix_44: 73048416
+      Boss Idle Fix_45: -1306850165
+      Boss Idle Fix_46: 753729114
+      Boss Idle Fix_47: -91510538
+      Boss Idle Fix_48: -2010264748
+      Boss Idle Fix_49: 119759819
+      Boss Idle Fix_5: -620616734
+      Boss Idle Fix_50: 1460811963
+      Boss Idle Fix_51: 75250503
+      Boss Idle Fix_52: 1824139278
+      Boss Idle Fix_53: -1398201549
+      Boss Idle Fix_54: -321845767
+      Boss Idle Fix_55: -927616062
+      Boss Idle Fix_56: -1771123933
+      Boss Idle Fix_57: 1518282350
+      Boss Idle Fix_58: -1377304888
+      Boss Idle Fix_59: 1907797147
+      Boss Idle Fix_6: -286203997
+      Boss Idle Fix_60: 2038804136
+      Boss Idle Fix_61: 1973408456
+      Boss Idle Fix_62: 1895183324
+      Boss Idle Fix_63: 1300132692
+      Boss Idle Fix_64: -1034256393
+      Boss Idle Fix_65: 1599651167
+      Boss Idle Fix_66: 1728537821
+      Boss Idle Fix_67: -1712255860
+      Boss Idle Fix_68: 1254385860
+      Boss Idle Fix_69: 1299020131
+      Boss Idle Fix_7: -58297192
+      Boss Idle Fix_70: 156873760
+      Boss Idle Fix_71: -1537512450
+      Boss Idle Fix_72: -1999222538
+      Boss Idle Fix_73: -1105215442
+      Boss Idle Fix_74: -999764294
+      Boss Idle Fix_75: 815484282
+      Boss Idle Fix_76: -931236896
+      Boss Idle Fix_77: 396989858
+      Boss Idle Fix_78: -278652546
+      Boss Idle Fix_79: -1348244750
+      Boss Idle Fix_8: 1000688774
+      Boss Idle Fix_80: -951559998
+      Boss Idle Fix_81: 1387087519
+      Boss Idle Fix_82: 40522619
+      Boss Idle Fix_83: -363861312
+      Boss Idle Fix_84: -750413570
+      Boss Idle Fix_85: -897634077
+      Boss Idle Fix_86: 658767152
+      Boss Idle Fix_87: -1881403807
+      Boss Idle Fix_88: 1738301887
+      Boss Idle Fix_89: -749645488
+      Boss Idle Fix_9: 1923050217
+      Boss Idle Fix_90: -697726818
+      Boss Idle Fix_91: 204709936
+      Boss Idle Fix_92: 1590769969
+      Boss Idle Fix_93: -801771787
+      Boss Idle Fix_94: 1051780250
+      Boss Idle Fix_95: -501222712
+      Boss Idle Fix_96: 1737931613
+      Boss Idle Fix_97: -454312171
+      Boss Idle Fix_98: 727018211
+      Boss Idle Fix_99: -73583166
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

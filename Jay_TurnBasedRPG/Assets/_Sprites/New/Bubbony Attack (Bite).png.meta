@@ -1,0 +1,2553 @@
+fileFormatVersion: 2
+guid: 5e2af9e693d02e941a3bee3fbbc19fef
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: 74
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8020
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e748056b6adb7ce4b8efb227ba41cb3a
+      internalID: -715222556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_1
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 8020
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14dba71b602f6da499dbc2c73b06922b
+      internalID: 1809294829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_2
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 8020
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33909ff62797b04e889a0739304e062
+      internalID: 1520795818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_3
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 8020
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c144cfb7161c55c4b87af4c6b763839b
+      internalID: -1496260031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_4
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 8020
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e21b28219903cc249bce5f09c0bb3735
+      internalID: -1858343298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_5
+      rect:
+        serializedVersion: 2
+        x: 4010
+        y: 8020
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1db1faca289554141bcf5394f8559921
+      internalID: 272215349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_6
+      rect:
+        serializedVersion: 2
+        x: 4812
+        y: 8020
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 401384dd22ebab847b1d6657658488a0
+      internalID: -1395875773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_7
+      rect:
+        serializedVersion: 2
+        x: 5614
+        y: 8020
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e476b2eb4c65ce6469562dc399223fd1
+      internalID: -1566074635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_8
+      rect:
+        serializedVersion: 2
+        x: 6416
+        y: 8020
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c6da7b88336204c8f54bd04969767b
+      internalID: -271843081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_9
+      rect:
+        serializedVersion: 2
+        x: 7218
+        y: 8020
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d83c461f55c3a4c49b09ab317396a530
+      internalID: 587321670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7218
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc3ce33f97f657646844e8bfac2bc051
+      internalID: 668160914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_12
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 7218
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 567faa29da104964a90949443f46fffd
+      internalID: 788118973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_13
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 7218
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e659c3b599aa947a56101644a4d722
+      internalID: 1106048292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_14
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 7218
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3c38f1c6caaac4a81682aaf0879884
+      internalID: 1322006410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_15
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 7218
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5dd736b8a6b9204090972ec29f90125
+      internalID: -1131695219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_16
+      rect:
+        serializedVersion: 2
+        x: 4010
+        y: 7218
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bab7acdecffaf049bf78afb74e22d5a
+      internalID: -1130341799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_17
+      rect:
+        serializedVersion: 2
+        x: 4812
+        y: 7218
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb93125597a2f144ab9322fae65a7c8c
+      internalID: 2032360310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_18
+      rect:
+        serializedVersion: 2
+        x: 5614
+        y: 7218
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1ff7ea47efeea4eb96c51138ecf95d
+      internalID: -1061539080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_19
+      rect:
+        serializedVersion: 2
+        x: 6416
+        y: 7218
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08bd52b122512d24f8155b08c06633c5
+      internalID: 1434692797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_20
+      rect:
+        serializedVersion: 2
+        x: 7218
+        y: 7218
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ffafa667219a94683ba641f76dc7f7
+      internalID: 1504739383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6416
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1787a67e06c3b554b8a6aabed4c9dcaf
+      internalID: -179345081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_23
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 6416
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7e87e5140ed274395688dea31bf498
+      internalID: 1973481272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_24
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 6416
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0eb5e7e8c814b44890c8d33548e48f
+      internalID: -1013141760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_25
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 6416
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93da537d1d29d25438165c3fa933f675
+      internalID: -973883807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_26
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 6416
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2468d3e66383644d8e8b5fd73e7049b
+      internalID: 83118354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_27
+      rect:
+        serializedVersion: 2
+        x: 4010
+        y: 6416
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b472c0e135de84fab4423c4dcb77ce
+      internalID: -1859788996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_28
+      rect:
+        serializedVersion: 2
+        x: 4812
+        y: 6416
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a5f50f9b07d8a94b93b42e8762c0a2e
+      internalID: 572904086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_29
+      rect:
+        serializedVersion: 2
+        x: 5614
+        y: 6416
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74c60d559085144e930464af8005bf5
+      internalID: -909803137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_30
+      rect:
+        serializedVersion: 2
+        x: 6416
+        y: 6416
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a717de6dccd8da04c9c18cea3bfed195
+      internalID: 1118423681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_31
+      rect:
+        serializedVersion: 2
+        x: 7218
+        y: 6416
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2eb3360a7c8bc49a14d3dfcb84b46d
+      internalID: 75782512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5614
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c14c5f711cd744840903a67447828b46
+      internalID: 182265585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_34
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 5614
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f23795dbc4af004a9e933f9ae37c3d8
+      internalID: -534475569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_35
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 5614
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e21b92dcfaa7d4d864117ee94a10c7
+      internalID: -743001401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_36
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 5614
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea57910ca10da9438815f7384bc8101
+      internalID: 1272417756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_37
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 5614
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441f7e8dd7c9b95488c6ab93e355a8c4
+      internalID: -2059637273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_38
+      rect:
+        serializedVersion: 2
+        x: 4010
+        y: 5614
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a466aed55fa4afe46a024ff946ba86b6
+      internalID: 1049801197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_39
+      rect:
+        serializedVersion: 2
+        x: 4812
+        y: 5614
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57bc9780b792c17479b93ae1ffcd86bb
+      internalID: 881154926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_40
+      rect:
+        serializedVersion: 2
+        x: 5614
+        y: 5614
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80399d8fcddaf2e45a3477c25127634d
+      internalID: 894168088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_41
+      rect:
+        serializedVersion: 2
+        x: 6416
+        y: 5614
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d68eff2ca880cf438bdcd5ee2c65748
+      internalID: 776288534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_42
+      rect:
+        serializedVersion: 2
+        x: 7218
+        y: 5614
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a1f933c7471b042a2bd4324fd74fab
+      internalID: 2024916688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4812
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 086420a3aa76b4441b3d0542922655b7
+      internalID: -2076045090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_45
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 4812
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a858ee5d34e997848953c562136e2f2d
+      internalID: 1336449504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_46
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 4812
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58204a042ef7e5a498cb39303d55533e
+      internalID: -1821212123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_47
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 4812
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26395ce17e87ed648b7c0c448deb31fd
+      internalID: 1378276117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_48
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 4812
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be02901e657ede244b410a8c841ca536
+      internalID: 686537301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_49
+      rect:
+        serializedVersion: 2
+        x: 4010
+        y: 4812
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52eee44d5999dfe4896bd2680d8a88dd
+      internalID: -512478180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_50
+      rect:
+        serializedVersion: 2
+        x: 4812
+        y: 4812
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd39c18c692027240a3cf4ece77296c2
+      internalID: 2025170607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_51
+      rect:
+        serializedVersion: 2
+        x: 5614
+        y: 4812
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6631e17fddc2a448932d39c023665b
+      internalID: 82818452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_52
+      rect:
+        serializedVersion: 2
+        x: 6416
+        y: 4812
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99baf5baff1bf03408f149c6c5fcee3b
+      internalID: -896419306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_53
+      rect:
+        serializedVersion: 2
+        x: 7218
+        y: 4812
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20670d98f339fec40b828acc5a7f07a6
+      internalID: 1690444984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4010
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1983bbc0769ae824183e4fd9091faab1
+      internalID: 781946695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_56
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 4010
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ddfd8a5a8d62345a1dcf1741e13e21
+      internalID: 2132689494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_57
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 4010
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a612ae560646fc41a7cbaab2f558a4d
+      internalID: 1580014880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_58
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 4010
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20a7a7707c950e4ca5fb563b6e6cac9
+      internalID: 433321637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_59
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 4010
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baeb0be73b684fb4a8cdf7e72b2aa487
+      internalID: 875467420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_60
+      rect:
+        serializedVersion: 2
+        x: 4010
+        y: 4010
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fcf9bb7c82257745b276e7ab84c7b6f
+      internalID: 1900068846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_61
+      rect:
+        serializedVersion: 2
+        x: 4812
+        y: 4010
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1bbcccbbd975114b8f1302416717d42
+      internalID: 725768993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_62
+      rect:
+        serializedVersion: 2
+        x: 5614
+        y: 4010
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e87a33562d58c843bf0f7e80ec5d71b
+      internalID: 2132024185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_63
+      rect:
+        serializedVersion: 2
+        x: 6416
+        y: 4010
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e6e2c19c30c4d4aa0d9005bd27979f
+      internalID: -734043946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_64
+      rect:
+        serializedVersion: 2
+        x: 7218
+        y: 4010
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72cdfbc68a10aa74bbf06233f25a1f3d
+      internalID: 1976038707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3208
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 940fc61b7086959459d359f45c4b8bd4
+      internalID: -421439530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_67
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 3208
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92cb6618c1931b74495036e3d654da11
+      internalID: 42434176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_68
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 3208
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e500d933ad437d4f94de1764af7f47f
+      internalID: -519930470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_69
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 3208
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64308d11645c0c24b88eae21fc316375
+      internalID: -719987960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_70
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 3208
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da6116e231c56a14780d7758b9362ec6
+      internalID: 1464223242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_71
+      rect:
+        serializedVersion: 2
+        x: 4010
+        y: 3208
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c871f2ef9a9962479fae15e26feee44
+      internalID: -1403227232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_72
+      rect:
+        serializedVersion: 2
+        x: 4812
+        y: 3208
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8485917dc3e519549b42c7916671a434
+      internalID: 234251263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_73
+      rect:
+        serializedVersion: 2
+        x: 5614
+        y: 3208
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f47d680318c2364f8f55f3b7d5c2a60
+      internalID: 1248491801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_74
+      rect:
+        serializedVersion: 2
+        x: 6416
+        y: 3208
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b674723bd1ad246b0d0374e881913a
+      internalID: 1011937248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_75
+      rect:
+        serializedVersion: 2
+        x: 7218
+        y: 3208
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575af7a4c3d898d4e8f300680e675dda
+      internalID: -1719317029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2406
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f1c8bd72543ce4b9ae9b392e828b50
+      internalID: -558292596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_78
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 2406
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3646849a15ed9a4f94c0420de8e279f
+      internalID: -57441510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_79
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 2406
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d829157da0126384bbcf57f176c8bd85
+      internalID: 1589027115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_80
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 2406
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 987dc7881afc9b045b6ca353e9361950
+      internalID: -1335609693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_81
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 2406
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af6b1db8c88b1c04d977a0a877f018ea
+      internalID: 664921224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_82
+      rect:
+        serializedVersion: 2
+        x: 4010
+        y: 2406
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a035254ed55aec14cb10aeaf40157b3c
+      internalID: -563689433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_83
+      rect:
+        serializedVersion: 2
+        x: 4812
+        y: 2406
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1666b9810997341907d00a9707c19c
+      internalID: -370816620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_84
+      rect:
+        serializedVersion: 2
+        x: 5614
+        y: 2406
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9898bfc5b2857f44ca19a6da2f37ffb7
+      internalID: 938206352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_85
+      rect:
+        serializedVersion: 2
+        x: 6416
+        y: 2406
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4ba3a857cec87b468a4227380a25ce7
+      internalID: -260676589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_86
+      rect:
+        serializedVersion: 2
+        x: 7218
+        y: 2406
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0214072eb15679949bdbc1394c70634f
+      internalID: 1554317898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1604
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed38d2623236534891611f6b8fcc646
+      internalID: -747484476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_89
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 1604
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1976ca4f0adbac49a743ebfa4ef9f02
+      internalID: 464876902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_90
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 1604
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e52147ef19d5d4abc96eef2043c220
+      internalID: 1103023898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_91
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 1604
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c9004694873fb41a415ac43783858f
+      internalID: -1731391974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_92
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 1604
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d388e6cef67824439d5f7d58e2bd33d
+      internalID: 1880082290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_93
+      rect:
+        serializedVersion: 2
+        x: 4010
+        y: 1604
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 515933e097e32974798bce85ff011bdf
+      internalID: 1116040620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_94
+      rect:
+        serializedVersion: 2
+        x: 4812
+        y: 1604
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 021bbf38e0aa56341ac2e008aaf19129
+      internalID: 1016323617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_95
+      rect:
+        serializedVersion: 2
+        x: 5614
+        y: 1604
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eedab30a89806e645973abaa4589c876
+      internalID: -1322417773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_96
+      rect:
+        serializedVersion: 2
+        x: 6416
+        y: 1604
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d421a1c31a01b2468c013227ddfe6fa
+      internalID: 972999421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_97
+      rect:
+        serializedVersion: 2
+        x: 7218
+        y: 1604
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9932c144b8cba3d448ff92b94a82f4f7
+      internalID: -1919989778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_99
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 802
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c340d5bb29be4e49b66b9095b5b6a53
+      internalID: 1344041862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_100
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 802
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f348cfc9a2ac2c45b892bcb23a9fbec
+      internalID: -182639244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_101
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 802
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6fa8e459a724a54b8fbf6c03628b27a
+      internalID: -317868638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_102
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 802
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd707aca087e01744a5c7151067a4d8f
+      internalID: 2146677336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_103
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 802
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1128c7cd155cfb74f9fd23eefe219b17
+      internalID: 2145338952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_104
+      rect:
+        serializedVersion: 2
+        x: 4010
+        y: 802
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9b6180af9a6e541a673e195b2c107d
+      internalID: -1313492191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_105
+      rect:
+        serializedVersion: 2
+        x: 4812
+        y: 802
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 497641acb60a69040912e21876a2d659
+      internalID: -1441846160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_106
+      rect:
+        serializedVersion: 2
+        x: 5614
+        y: 802
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb1dde53edacf3478b945f6a4b6b3dc
+      internalID: 1267601421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_107
+      rect:
+        serializedVersion: 2
+        x: 6416
+        y: 802
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f7c012f352e1ad449dee6c6473ca8e8
+      internalID: 1955128067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_108
+      rect:
+        serializedVersion: 2
+        x: 7218
+        y: 802
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf95a990d2d8064680026d2da5c78df
+      internalID: 746956933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aaa5fb1bed9b774eb66f634bb22176d
+      internalID: 835778322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_111
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 0
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f1f440f596c3042ac2a7f578a5133a
+      internalID: -2090343075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_112
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 0
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f8f4ca6aad3f143b681c7a73e09fc5
+      internalID: -1011980162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_113
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 0
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30e386c22d202f46abc6e3c1c217f81
+      internalID: 452211441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_114
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 0
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5294b2e4fa33147a8a83bc20f48135
+      internalID: 188594247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_115
+      rect:
+        serializedVersion: 2
+        x: 4010
+        y: 0
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca51bfae967d8614d8722c6a6216a392
+      internalID: -238976246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_116
+      rect:
+        serializedVersion: 2
+        x: 4812
+        y: 0
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab9efa5314349f4cb75f36b152bdb04
+      internalID: -559765476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_117
+      rect:
+        serializedVersion: 2
+        x: 5614
+        y: 0
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212eb4a2b9fc6684b8955e2445a107a7
+      internalID: 2025605226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_118
+      rect:
+        serializedVersion: 2
+        x: 6416
+        y: 0
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a74ef0bc81c1f1d429dcf1143d852876
+      internalID: -1029926109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbony Attack (Bite)_119
+      rect:
+        serializedVersion: 2
+        x: 7218
+        y: 0
+        width: 802
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02c0b2b6b6931a04088553d9be9630e1
+      internalID: -1077223064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Bubbony Attack (Bite)_0: -715222556
+      Bubbony Attack (Bite)_1: 1809294829
+      Bubbony Attack (Bite)_10: -1905691383
+      Bubbony Attack (Bite)_100: -182639244
+      Bubbony Attack (Bite)_101: -317868638
+      Bubbony Attack (Bite)_102: 2146677336
+      Bubbony Attack (Bite)_103: 2145338952
+      Bubbony Attack (Bite)_104: -1313492191
+      Bubbony Attack (Bite)_105: -1441846160
+      Bubbony Attack (Bite)_106: 1267601421
+      Bubbony Attack (Bite)_107: 1955128067
+      Bubbony Attack (Bite)_108: 746956933
+      Bubbony Attack (Bite)_109: -1251741836
+      Bubbony Attack (Bite)_11: 668160914
+      Bubbony Attack (Bite)_110: 835778322
+      Bubbony Attack (Bite)_111: -2090343075
+      Bubbony Attack (Bite)_112: -1011980162
+      Bubbony Attack (Bite)_113: 452211441
+      Bubbony Attack (Bite)_114: 188594247
+      Bubbony Attack (Bite)_115: -238976246
+      Bubbony Attack (Bite)_116: -559765476
+      Bubbony Attack (Bite)_117: 2025605226
+      Bubbony Attack (Bite)_118: -1029926109
+      Bubbony Attack (Bite)_119: -1077223064
+      Bubbony Attack (Bite)_12: 788118973
+      Bubbony Attack (Bite)_13: 1106048292
+      Bubbony Attack (Bite)_14: 1322006410
+      Bubbony Attack (Bite)_15: -1131695219
+      Bubbony Attack (Bite)_16: -1130341799
+      Bubbony Attack (Bite)_17: 2032360310
+      Bubbony Attack (Bite)_18: -1061539080
+      Bubbony Attack (Bite)_19: 1434692797
+      Bubbony Attack (Bite)_2: 1520795818
+      Bubbony Attack (Bite)_20: 1504739383
+      Bubbony Attack (Bite)_21: 1707089833
+      Bubbony Attack (Bite)_22: -179345081
+      Bubbony Attack (Bite)_23: 1973481272
+      Bubbony Attack (Bite)_24: -1013141760
+      Bubbony Attack (Bite)_25: -973883807
+      Bubbony Attack (Bite)_26: 83118354
+      Bubbony Attack (Bite)_27: -1859788996
+      Bubbony Attack (Bite)_28: 572904086
+      Bubbony Attack (Bite)_29: -909803137
+      Bubbony Attack (Bite)_3: -1496260031
+      Bubbony Attack (Bite)_30: 1118423681
+      Bubbony Attack (Bite)_31: 75782512
+      Bubbony Attack (Bite)_32: -1973548225
+      Bubbony Attack (Bite)_33: 182265585
+      Bubbony Attack (Bite)_34: -534475569
+      Bubbony Attack (Bite)_35: -743001401
+      Bubbony Attack (Bite)_36: 1272417756
+      Bubbony Attack (Bite)_37: -2059637273
+      Bubbony Attack (Bite)_38: 1049801197
+      Bubbony Attack (Bite)_39: 881154926
+      Bubbony Attack (Bite)_4: -1858343298
+      Bubbony Attack (Bite)_40: 894168088
+      Bubbony Attack (Bite)_41: 776288534
+      Bubbony Attack (Bite)_42: 2024916688
+      Bubbony Attack (Bite)_43: -594696286
+      Bubbony Attack (Bite)_44: -2076045090
+      Bubbony Attack (Bite)_45: 1336449504
+      Bubbony Attack (Bite)_46: -1821212123
+      Bubbony Attack (Bite)_47: 1378276117
+      Bubbony Attack (Bite)_48: 686537301
+      Bubbony Attack (Bite)_49: -512478180
+      Bubbony Attack (Bite)_5: 272215349
+      Bubbony Attack (Bite)_50: 2025170607
+      Bubbony Attack (Bite)_51: 82818452
+      Bubbony Attack (Bite)_52: -896419306
+      Bubbony Attack (Bite)_53: 1690444984
+      Bubbony Attack (Bite)_54: -1312578477
+      Bubbony Attack (Bite)_55: 781946695
+      Bubbony Attack (Bite)_56: 2132689494
+      Bubbony Attack (Bite)_57: 1580014880
+      Bubbony Attack (Bite)_58: 433321637
+      Bubbony Attack (Bite)_59: 875467420
+      Bubbony Attack (Bite)_6: -1395875773
+      Bubbony Attack (Bite)_60: 1900068846
+      Bubbony Attack (Bite)_61: 725768993
+      Bubbony Attack (Bite)_62: 2132024185
+      Bubbony Attack (Bite)_63: -734043946
+      Bubbony Attack (Bite)_64: 1976038707
+      Bubbony Attack (Bite)_65: -867629432
+      Bubbony Attack (Bite)_66: -421439530
+      Bubbony Attack (Bite)_67: 42434176
+      Bubbony Attack (Bite)_68: -519930470
+      Bubbony Attack (Bite)_69: -719987960
+      Bubbony Attack (Bite)_7: -1566074635
+      Bubbony Attack (Bite)_70: 1464223242
+      Bubbony Attack (Bite)_71: -1403227232
+      Bubbony Attack (Bite)_72: 234251263
+      Bubbony Attack (Bite)_73: 1248491801
+      Bubbony Attack (Bite)_74: 1011937248
+      Bubbony Attack (Bite)_75: -1719317029
+      Bubbony Attack (Bite)_76: 707999761
+      Bubbony Attack (Bite)_77: -558292596
+      Bubbony Attack (Bite)_78: -57441510
+      Bubbony Attack (Bite)_79: 1589027115
+      Bubbony Attack (Bite)_8: -271843081
+      Bubbony Attack (Bite)_80: -1335609693
+      Bubbony Attack (Bite)_81: 664921224
+      Bubbony Attack (Bite)_82: -563689433
+      Bubbony Attack (Bite)_83: -370816620
+      Bubbony Attack (Bite)_84: 938206352
+      Bubbony Attack (Bite)_85: -260676589
+      Bubbony Attack (Bite)_86: 1554317898
+      Bubbony Attack (Bite)_87: -806697264
+      Bubbony Attack (Bite)_88: -747484476
+      Bubbony Attack (Bite)_89: 464876902
+      Bubbony Attack (Bite)_9: 587321670
+      Bubbony Attack (Bite)_90: 1103023898
+      Bubbony Attack (Bite)_91: -1731391974
+      Bubbony Attack (Bite)_92: 1880082290
+      Bubbony Attack (Bite)_93: 1116040620
+      Bubbony Attack (Bite)_94: 1016323617
+      Bubbony Attack (Bite)_95: -1322417773
+      Bubbony Attack (Bite)_96: 972999421
+      Bubbony Attack (Bite)_97: -1919989778
+      Bubbony Attack (Bite)_98: -134635708
+      Bubbony Attack (Bite)_99: 1344041862
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

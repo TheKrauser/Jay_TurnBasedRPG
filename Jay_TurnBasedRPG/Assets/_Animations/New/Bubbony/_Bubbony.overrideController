@@ -9,7 +9,9 @@ AnimatorOverrideController:
   m_Name: _Bubbony
   m_Controller: {fileID: 9100000, guid: 2907552289fd58e43b59f06dce577f26, type: 2}
   m_Clips:
-  - m_OriginalClip: {fileID: 7400000, guid: b3e864d5b8ed7f146af06e46318b569f, type: 2}
-    m_OverrideClip: {fileID: 7400000, guid: c1c8842e2e18b9b409288eaa01b912ed, type: 2}
-  - m_OriginalClip: {fileID: 7400000, guid: de1a60317555c1a42ac81c608c64286a, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 5a2748895fb9c884a88c271734637636, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: c0f5233497dde9145a2d99301b6635b8, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 8d2555138a17afd4bb6a1fa4b1751a45, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 404bb5ee9521ee94495939ccf0b7ccd8, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 75c33edfe28d74c4abc11c8893a52270, type: 2}
     m_OverrideClip: {fileID: 7400000, guid: c1c8842e2e18b9b409288eaa01b912ed, type: 2}
