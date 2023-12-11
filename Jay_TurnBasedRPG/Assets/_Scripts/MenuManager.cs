@@ -14,9 +14,9 @@ public class MenuManager : MonoBehaviour
         ManageView(stage, true);
     }
 
-    public void SelectStage()
+    public void SelectStage(string n)
     {
-        SceneManager.LoadScene("Cutscene");
+        SceneManager.LoadScene(n);
     }
 
     public void Back()

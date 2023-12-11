@@ -4307,7 +4307,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 851140348}
   m_OnClick:
     m_PersistentCalls:
@@ -4315,13 +4315,13 @@ MonoBehaviour:
       - m_Target: {fileID: 621604041}
         m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
         m_MethodName: SelectStage
-        m_Mode: 1
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: BossBattle
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &851140348
@@ -6373,7 +6373,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 1245434350}
   m_OnClick:
     m_PersistentCalls:
@@ -6381,13 +6381,13 @@ MonoBehaviour:
       - m_Target: {fileID: 621604041}
         m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
         m_MethodName: SelectStage
-        m_Mode: 1
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: BattleScene
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1245434350
@@ -7379,13 +7379,13 @@ MonoBehaviour:
       - m_Target: {fileID: 621604041}
         m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
         m_MethodName: SelectStage
-        m_Mode: 1
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Cutscene
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1340176590

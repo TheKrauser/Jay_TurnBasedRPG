@@ -255,6 +255,7 @@ public class UI_BattleHandler : MonoBehaviour
     public void Menu()
     {
         SceneManager.LoadScene("Menu");
+        Time.timeScale = 1;
     }
 
     public void Restart()

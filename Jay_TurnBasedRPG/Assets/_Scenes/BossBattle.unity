@@ -8052,7 +8052,7 @@ MonoBehaviour:
   ultimate: {fileID: 559796991}
   bag: {fileID: 0}
   heal: {fileID: 697232470}
-  pause: {fileID: 0}
+  pause: {fileID: 1726583215}
   groupButtons: {fileID: 543586362}
 --- !u!1 &2083386808
 GameObject:
