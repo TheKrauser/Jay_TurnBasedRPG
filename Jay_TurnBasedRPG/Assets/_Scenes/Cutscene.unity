@@ -287,6 +287,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vPlayer: {fileID: 331170973}
+  nextScene: TutorialScene
 --- !u!4 &253982985
 Transform:
   m_ObjectHideFlags: 0

@@ -18,7 +18,6 @@ public class UI_BattleHandler : MonoBehaviour
     [SerializeField] private TextMeshProUGUI infoUltimateText;
     [SerializeField] private TextMeshProUGUI infoDamageText;
 
-    [SerializeField] private TextMeshProUGUI textTurn;
     [SerializeField] private TextMeshProUGUI textAct;
     [SerializeField] private TextMeshProUGUI textHeal, textRevive, textFreeze;
 
@@ -32,6 +31,7 @@ public class UI_BattleHandler : MonoBehaviour
     private int healAmount = 2, reviveAmount = 2, freezeAmount = 2;
 
     [SerializeField] private CanvasGroup groupButtons;
+    [SerializeField] private Image turnColdalla, turnCottama, turnBubbony, turnEnemy;
 
     private BattleHandler battleHandler;
 
@@ -114,10 +114,12 @@ public class UI_BattleHandler : MonoBehaviour
 
     public void UpdateTurnText()
     {
-        textTurn.text = $"{battleHandler.GetCurrentTurn().GetName()} Turn";
+        DisableTurn();
+        var currTurn = battleHandler.GetCurrentTurn().GetName();
 
-        if (battleHandler.GetCurrentTurn().GetName() == "Cottama")
+        if (currTurn == "Cottama")
         {
+            turnCottama.enabled = true;
             heal.gameObject.SetActive(true);
             attack.gameObject.SetActive(false);
         }
@@ -125,7 +127,22 @@ public class UI_BattleHandler : MonoBehaviour
         {
             attack.gameObject.SetActive(true);
             heal.gameObject.SetActive(false);
+
+            if (currTurn == "Coldalla")
+                turnColdalla.enabled = true;
+            else if (currTurn == "Bubbony")
+                turnBubbony.enabled = true;
+            else
+                turnEnemy.enabled = true;
         }
+    }
+
+    private void DisableTurn()
+    {
+        turnColdalla.enabled = false;
+        turnBubbony.enabled = false;
+        turnCottama.enabled = false;
+        turnEnemy.enabled = false;
     }
 
     public int GetItemAmount(string itemName)

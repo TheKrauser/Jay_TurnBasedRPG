@@ -19,6 +19,8 @@ public class TutorialBattle : MonoBehaviour
 
     [SerializeField] private SpriteRenderer cottamaCircle, coldallaCircle, enemyCircle;
 
+    [SerializeField] private Image turnColdalla, turnCottama, turnEnemy;
+
     //private float delay = 2f;
 
     private bool clickedAttack = false;
@@ -184,6 +186,13 @@ public class TutorialBattle : MonoBehaviour
         SceneManager.LoadScene("BattleScene");
     }
 
+    private void DisableTurn()
+    {
+        turnColdalla.enabled = false;
+        turnCottama.enabled = false;
+        turnEnemy.enabled = false;
+    } 
+
     public IEnumerator Starting()
     {
         textBG.SetActive(true);
@@ -197,7 +206,7 @@ public class TutorialBattle : MonoBehaviour
         yield return new WaitUntil(() => mouseClicked);
         mouseClicked = false;
 
-        turnText.text = "Coldalla's Turn";
+        turnColdalla.enabled = true;
         coldallaCircle.color = Color.green;
         enemyCircle.color = Color.black;
         text.text = "It's Coldalla's turn now, you can click on the <color=red>ATK</color> button to <color=red>attack</color> the enemy.";
@@ -219,7 +228,8 @@ public class TutorialBattle : MonoBehaviour
         yield return new WaitUntil(() => mouseClicked);
         mouseClicked = false;
         textBG.SetActive(false);
-        turnText.text = "Enemy's Turn";
+        DisableTurn();
+        turnEnemy.enabled = true;
         enemyCircle.color = Color.green;
         cottamaCircle.color = Color.black;
         StartCoroutine(Attack(enemy, coldalla, false));
@@ -259,7 +269,8 @@ public class TutorialBattle : MonoBehaviour
             mouseClicked = false;
             coldallaAttacked = true;
             textBG.SetActive(true);
-            turnText.text = "Cottama's Turn";
+            DisableTurn();
+            turnCottama.enabled = true;
             cottamaCircle.color = Color.green;
             coldallaCircle.color = Color.black;
             text.text = "Cottama is just a <color=green>HEALER</color> and your team is full life, but you can use one of the <color=blue>ITEMS</color> in the bottom right corner instead.";
@@ -280,7 +291,8 @@ public class TutorialBattle : MonoBehaviour
             yield return new WaitForSeconds(2f);
             mouseClicked = false;
             textBG.SetActive(true);
-            turnText.text = "Coldalla's Turn";
+            DisableTurn();
+            turnColdalla.enabled = true;
             coldallaCircle.color = Color.green;
             enemyCircle.color = Color.black;
             text.text = "It's your turn again, you can attack the enemy with Coldalla, since he is <color=red>buffed</color>, he will do <color=red>more damage</color>.";
@@ -296,7 +308,8 @@ public class TutorialBattle : MonoBehaviour
             mouseClicked = false;
             buffedColdallaAttacked = true;
             textBG.SetActive(true);
-            turnText.text = "Cottama's Turn";
+            DisableTurn();
+            turnCottama.enabled = true;
             cottamaCircle.color = Color.green;
             coldallaCircle.color = Color.black;
             text.text = "Coldalla received some damage from the enemy, but Cottama is focused on <color=green>HEALING</color>, click on the <color=green>HEAL</color> button and select Coldalla to <color=green>heal</color> him.";
@@ -315,7 +328,8 @@ public class TutorialBattle : MonoBehaviour
             yield return new WaitForSeconds(2f);
             mouseClicked = false;
             textBG.SetActive(true);
-            turnText.text = "Coldalla's Turn";
+            DisableTurn();
+            turnColdalla.enabled = true;
             coldallaCircle.color = Color.green;
             enemyCircle.color = Color.black;
             text.text = "Your other two items are a <color=green>HEALING POTION</color> that heals <color=green>60 HP</color> and some <color=blue>ICE CUBES</color> that <color=blue>freezes</color> the enemy for <color=blue>one turn</color>.";
@@ -330,7 +344,8 @@ public class TutorialBattle : MonoBehaviour
             //yield return new WaitForSeconds(delay);
             yield return new WaitUntil(() => mouseClicked);
             mouseClicked = false;
-            turnText.text = "Cottama's Turn";
+            DisableTurn();
+            turnCottama.enabled = true;
             cottamaCircle.color = Color.green;
             coldallaCircle.color = Color.black;
             textBG.SetActive(false);
@@ -347,7 +362,8 @@ public class TutorialBattle : MonoBehaviour
         if (!healedColdalla)
         {
             healedColdalla = true;
-            turnText.text = "Enemy's Turn";
+            DisableTurn();
+            turnEnemy.enabled = true;
             enemyCircle.color = Color.green;
             cottamaCircle.color = Color.black;
             StartCoroutine(Attack(enemy, cottama, false));
@@ -359,14 +375,16 @@ public class TutorialBattle : MonoBehaviour
         yield return new WaitForSeconds(2f);
         mouseClicked = false;
         textBG.SetActive(true);
-        turnText.text = "Enemy's Turn";
+        DisableTurn();
+        turnEnemy.enabled = true;
         enemyCircle.color = Color.green;
         cottamaCircle.color = Color.black;
         text.text = "Your enemy was <color=blue>frozen</color> and could not perform his action, so, It's your turn again!";
         //yield return new WaitForSeconds(delay);
         yield return new WaitUntil(() => mouseClicked);
         mouseClicked = false;
-        turnText.text = "Coldalla's Turn";
+        DisableTurn();
+        turnColdalla.enabled = true;
         coldallaCircle.color = Color.green;
         enemyCircle.color = Color.black;
         enemy.RemoveFreeze();

@@ -325,6 +325,8 @@ public class BattleHandler : MonoBehaviour
             }
 
             unit.SetCircleColor(Color.green);
+            currentTurnUnit = unit;
+            OnTurnChanged?.Invoke(this, EventArgs.Empty);
 
             if (unit.GetFreezed())
             {
